@@ -1,0 +1,13 @@
+.card__information {
+    text-align: center;
+}
+
+.card__heading {
+    font-size: calc(var(--font-heading-scale) * 1.6rem);
+}
+
+.price {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 800;
+}

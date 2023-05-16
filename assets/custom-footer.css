@@ -1,0 +1,23 @@
+.footer-block.grid__item.footer-block--menu {
+    max-width: 100%;
+}
+
+.footer-block__details-content .link, .footer-block__details-content a, .footer-block__details-content b {
+    text-transform: uppercase;
+    color: #a5a5a5;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer__content-top {
+    padding-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 750px) {
+
+.footer-block__details-content>li:not(:last-child) {
+    margin-right: 3vw;
+}
+
+}

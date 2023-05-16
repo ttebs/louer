@@ -1,0 +1,72 @@
+.multicolumn--style-0 {
+    background-color: var(--gradient-base-background-2);
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.multicolumn--style-0 .title-wrapper-with-link {
+    justify-content: center;
+}
+
+.multicolumn--style-0 .title {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+.multicolumn--style-0 .multicolumn-card__image-wrapper {
+    width: 75%;
+}
+
+.multicolumn--style-0 .multicolumn-card__image-wrapper img {
+    filter: brightness(0.65);
+}
+
+.multicolumn--style-1 .banner__buttons {
+    justify-content: center;
+    width: 100%;
+}
+
+
+.banner__custom--titles .h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+    letter-spacing: -4px;
+}
+
+.banner__custom--titles .h1, .banner__custom--subtitles .subtitle {
+    text-align: center;
+    margin-top: -1rem !important;
+}
+
+a.button.button--primary.button--tertiary {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    background-color: #8c8c8c;
+    padding: 0.5rem 2.25rem;
+}
+
+.button.button--primary.button--tertiary::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    background-color: #f2d9be;
+    width: 97%;
+    height: 6px;
+    top: 37px;
+}
+
+@media screen and (max-width: 767px) {
+    .banner__custom--titles .h1 {
+        font-size: calc(3rem + 2vw);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .multicolumn--style-0 .slider-mobile-gutter {
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+    }
+}

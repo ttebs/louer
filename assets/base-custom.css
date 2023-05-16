@@ -1,0 +1,210 @@
+
+a, button {
+    transition: ease-in-out .4s;
+    transition-delay: .1s;
+    transition-duration: 2.25s;
+}
+
+.header__active-menu-item {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.header__menu-item:hover span {
+    text-decoration: none;
+    text-underline-offset: 0.3rem;
+    color: #5c5c5c;
+}
+
+a.link.link--text.list-menu__item.list-menu__item--link:hover, .copyright__content a:hover {
+    color: #5c5c5c;
+    text-decoration: none;
+    text-underline-offset: 0.3rem;
+}
+
+a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active {
+    color: #5c5c5c;
+}
+
+.button.button--primary.button--tertiary:before {
+    transition: all .2s;
+    transition-delay: .1s;
+    transition-duration: 2s;
+}
+
+a.button.button--primary.button--tertiary:hover {
+    opacity: .8;
+}
+
+a.button.button--primary.button--tertiary:hover::before {
+    width: 0%;
+}
+
+.facet-checkbox {
+    padding: 0rem 2rem 0rem 0;
+}
+
+.facets__list {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.vhide {
+    display: none !important;
+}
+
+.collection-hero__title {
+    display: none;
+}
+
+.grid {
+    justify-content: space-evenly;
+}
+
+.current__Active-filter span {
+    color: #000000;
+}
+
+.btn.btn-link {
+    text-decoration: auto;
+    color: rgba(var(--color-foreground),.75);
+}
+
+.current__Active-filter span {
+    color: rgba(var(--color-foreground),.95);
+    font-weight: bold;
+}
+
+.collection.page-width {
+    max-width: calc(var(--page-width) - 88rem);
+}
+
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after {
+    box-shadow: none;
+}
+
+.collection .card-information .price-item--tag {
+    display: none;
+}
+
+h2.product-recommendations__heading.h2 {
+    text-align: center;
+    border-bottom: 1.5px solid #d4cfcf;
+    padding-bottom: 4rem;
+    margin-bottom: 9rem;
+}
+
+.card__information, .card .card-information {
+    text-align: center;
+}
+
+a.button.button--secondary {
+    text-decoration: underline;
+}
+
+.rich-text.content-container.color-background-1.gradient.section-template--17556832715055__96d5c9e9-9680-47b7-96b6-22646ab8f363-padding .rich-text__text.rte p a {
+    text-decoration: none;
+}
+
+.rich-text.content-container.color-background-1.gradient.section-template--17556832715055__96d5c9e9-9680-47b7-96b6-22646ab8f363-padding .rich-text__text.rte p {
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+.page-width {
+    max-width: 120ch;
+}
+
+.customer form a {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.customer .field input, .customer select {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #f1f1f1;
+    color: rgb(var(--color-foreground));
+    font-size: 1.6rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: box-shadow var(--duration-short) ease;
+    border-radius: var(--inputs-radius);
+    height: 2.5rem;
+    min-height: calc(var(--inputs-border-width) * 2);
+    min-width: calc(7rem + (var(--inputs-border-width) * 2));
+    position: relative;
+    border: 0;
+}
+
+.customer .field label {
+    font-size: 1.2rem;
+    left: calc(var(--inputs-border-width) + 2rem);
+    top: calc(1rem + var(--inputs-border-width));
+    margin-bottom: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: top var(--duration-short) ease,font-size var(--duration-short) ease;
+    color: #000;
+    letter-spacing: .1rem;
+    line-height: 0.8;
+}
+
+h1#login {
+    display: none;
+}
+
+.customer.register h1 {
+    display: none;
+}
+
+.customer.login {
+    padding-top: 0;
+}
+
+.button.button__login, .button.button__create-account {
+    text-transform: uppercase;
+    width: 100%;
+    min-height: calc(3.25rem + var(--buttons-border-width) * 2);
+    background: #737373;
+    border-radius: 0.78rem;
+    margin-bottom: 0.128rem;
+    box-shadow: none !important;
+}
+
+.create__account.isolate {
+    border-top: 1.5px solid #d7d7d7;
+    margin-top: 16rem;
+    padding-top: 4rem;
+}
+
+.link.link__create-account {
+    text-transform: uppercase;
+    font-size: 1.45rem;
+    font-weight: 100;
+    line-height: 3.25rem;
+    width: 100%;
+    min-height: calc(3.25rem + var(--buttons-border-width) * 2);
+    color: #ffffff;
+    background: #737373;
+    border-radius: 0.78rem;
+    margin-bottom: 0.128rem;
+    text-decoration: none;
+    margin-top: 5rem;
+}
+
+.link.link__create-account:hover, .button__login:hover, .button.button__create-account:hover {
+    color: #737373;
+    background: #fff;
+    border: 1px solid #737373;
+}
+
+.banner.banner__custom--page-width {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: calc(1.25rem + 2vw);
+    }
+}

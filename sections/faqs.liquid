@@ -1,0 +1,188 @@
+{% assign ID = section.id | replace: '-', '' %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+<div id="faq{{ ID }}" class="faq faq_{{ ID }} {{ section.settings.cssclass }} page-width">
+
+    <div class="faq-Heading">
+        <h2>{{ section.settings.heading }}</h2>
+    </div>
+
+
+  {% for faq in section.blocks %}
+    <div class="faq-Card__Section">
+        <div class="faq__header">
+            <span class="faq-Button__Content">
+              <span class="faq-Button__Text" data-target=".faq-{{ forloop.index }}{{ ID }}" data-icon=".icon{{ forloop.index }}{{ ID }}">{{ faq.settings.heading }} <i class="icon{{ forloop.index }}{{ ID }} fa-solid fa-chevron-right"></i></span>
+            </span>
+        </div>
+        <div class="collapse faq-{{ forloop.index }}{{ ID }}">
+          <div class="faqs-TextContainer">
+              {{ faq.settings.paragraph }}
+            </div>
+        </div>
+    </div>
+  {% endfor %}
+
+  
+</div>
+
+{% style %}
+.faq_{{ ID }} {
+    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+    max-width: calc(85rem + .25vw);
+}
+
+.faq_{{ ID }} .faq-Card__Section {
+    margin-bottom: 1rem;
+    animation: fadeIn 3s;
+    transition: all 2s;
+}
+
+.faq_{{ ID }} .faq-Heading h2 {
+    text-align: left;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #656565;
+}
+
+.faq_{{ ID }} .faq__header {
+    color: rgba(var(--color-foreground),.85);
+    padding: 0;
+}
+
+.faq_{{ ID }} .faq__header .faq-Button__Text, .faq .faq__header > .faq-Button__Content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.faq_{{ ID }} .faq-Button__Text .fa-question {
+    color: #fff;
+    padding: 0.35rem 0.8rem;
+    border-radius: 100%;
+}
+
+.faq_{{ ID }} .collapse {
+    display: none;
+    padding: 1rem 4rem;
+    margin: 1px;
+    animation: fadeIn 3s;
+    transition: all 2s;
+}
+
+.faq_{{ ID }} .collapse.show {
+    display: block;
+}
+
+.faqs-TextContainer {
+    border-bottom: 1px solid;
+}
+
+.icon{{ ID }} {
+    transition: ease-in .1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.80;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+{% endstyle %}
+
+<script>
+
+  const collapseStart{{ ID }} = document.getElementById('faq{{ ID }}');
+
+  function controlCollapse() {
+    const allCollapsedBtn = document.querySelectorAll('.faq_{{ ID }} .faq-Button__Text');
+    allCollapsedBtn.forEach(control => {
+        control.classList.remove('open');
+    });
+
+    const allCollapsedItems = document.querySelectorAll('.faq_{{ ID }} .collapse');
+    allCollapsedItems.forEach(control => {
+        control.classList.remove('show');
+    });
+
+    return true;
+  }
+
+  collapseStart{{ ID }}.addEventListener('click', function(evnt) {
+    if(evnt.target.className == "faq-Button__Text"){
+      {% if section.settings.collapse %}
+      controlCollapse();
+      {% endif %}
+        setTimeout(() => {
+          document.querySelector(evnt.target.dataset.target).classList.toggle('show');
+          document.querySelector(evnt.target.dataset.icon).classList.toggle('fa-chevron-right');
+          document.querySelector(evnt.target.dataset.icon).classList.toggle('fa-angle-down');
+        }, 500);
+    }
+  })
+
+</script>
+
+{% schema %}
+  {
+    "name": "FAQs with collapse",
+    "settings": [
+      {
+      "type": "text",
+      "id": "cssclass",
+      "label": "Custom css"
+      },
+      {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FAQ | collapse"
+      },
+      {
+      "type": "checkbox",
+      "id": "collapse",
+      "label": "Accordion Mode"
+      }
+    ],
+    "blocks": [
+    {
+      "type": "faq",
+      "name": "Ask",
+      "limit": 18,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "FAQ Ask",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "default": "<p>Your mailing list lets you contact customers or visitors who have shown an interest in your store. Reach out to them with exclusive offers or updates about your products.</p>",
+          "label": "Response"
+        }
+      ]
+    }
+  ],
+    "presets": [
+    {
+      "name": "FAQs with collapse",
+      "blocks": [
+        {
+          "type": "faq"
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}
