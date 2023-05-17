@@ -945,3 +945,71 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+
+
+window.onload = function(event) {
+  // selecting plan by monthly
+  const pay_monthly = document.querySelectorAll('.multicolumn--style-4 .multicolumn-card__info > h3');
+  const membership_plans = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info-price-2');
+  const membership_plans_button = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > a');
+  pay_monthly.forEach((insidebox) => {
+    insidebox.addEventListener('click', function () {
+      membership_plans.forEach((plan, index) => {
+        let plan_value = 1;
+
+        if(index == 0) plan_value = 250
+        else if (index == 1) plan_value = 500 
+        else plan_value = 950
+
+        switch (insidebox.innerText) {
+          case "Pay Monthy":
+              plan.innerHTML = `$${plan_value}`;
+              plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "month"
+              break;
+          case "Prepay 3 Months":
+              plan.innerHTML = `$${plan_value * 3}`;
+              plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "/3mos."
+            break;
+          case "Prepay 6 months":
+              console.log("koko")
+              plan.innerHTML = `$${plan_value * 6}`;
+              plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "/6mos."
+            break;
+          case "Prepay 12 months":
+              plan.innerHTML = `$${plan_value * 12}`;
+              plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "/12mos."
+            break;
+          default:
+            break;
+        }
+      })
+    });
+  })
+
+  // click the apply now button
+  membership_plans_button.forEach((insidebox) => {
+    insidebox.addEventListener('click', function () {
+      const membership_plan_name = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info > h3').textContent
+      const membership_plan_val = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-2').textContent
+      const membership_plan_month_text = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-js > small').textContent
+      localStorage.setItem("form-membership-value", `${membership_plan_name} - ${membership_plan_val} ${membership_plan_month_text}`);
+    });
+  })
+
+  // set membership localstorage to an input
+  const input_membership = document.querySelector('input[name=membership]');
+  const input_membership_val = localStorage.getItem('form-membership-value')
+  // input_membership.value = input_membership_val
+
+
+  // // input_membership.disabled = true
+  // // input_membership.dispatchEvent(new Event('input', {bubbles: true}));
+  // console.log("heres", input_membership)
+
+  document.querySelector(`input[value="${input_membership_val}"]`).click();
+  // radioBtn.checked = true;
+};
+
+
