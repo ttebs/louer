@@ -203,6 +203,11 @@ h1#login {
     padding-top: 50px;
 }
 
+.cf-field-container.membership-plan {
+    height: 0;
+    visibility: hidden;
+}
+
 @media screen and (max-width: 767px) {
     .title {
         font-size: calc(1.25rem + 2vw);

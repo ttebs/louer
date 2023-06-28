@@ -947,9 +947,43 @@ class ProductRecommendations extends HTMLElement {
 customElements.define('product-recommendations', ProductRecommendations);
 
 
-
-
+// ********************* MEMBERSHIP PLAN ********************* 
 window.onload = function(event) {
+  const plan = document.querySelector('.product__info-wrapper.grid__item');
+  if(plan) {
+    const plan_val = plan.dataset.plan
+    const plan_choices = ['Delivery every 90 Days', 'Delivery every 180 Days', 'Delivery every 365 Days']
+    let plan_months = ""
+  
+    if(plan_val.includes('3mos')) {
+      plan_months = plan_choices[0]
+    } else if(plan_val.includes('6mos')) {
+      plan_months = plan_choices[1]
+    } else {
+      plan_months = plan_choices[2]
+    }
+  
+    // check plan dropdown to exist in DOM
+    function waitForElement(selector, callback) {
+      const element = document.querySelector(selector);
+      if (element) {
+        callback(element);
+      } else {
+        setTimeout(() => waitForElement(selector, callback), 100);
+      }
+    }
+    waitForElement("select.rc-selling-plans__dropdown", (element) => {
+      // element.style.visibility = "hidden";
+  
+      const optionToSelect = element.querySelector(`option[data-plan-option='${plan_months}']`);
+      optionToSelect.selected = true;
+  
+      // trigger change event after selecting a value option
+      const changeEvent = new Event("change");
+      element.dispatchEvent(changeEvent);
+    });
+  }
+
   // selecting plan by monthly
   const pay_monthly = document.querySelectorAll('.multicolumn--style-4 .multicolumn-card__info > h3');
   const membership_plans = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info-price-2');
@@ -992,9 +1026,13 @@ window.onload = function(event) {
   membership_plans_button.forEach((insidebox) => {
     insidebox.addEventListener('click', function () {
       const membership_plan_name = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info > h3').textContent
-      const membership_plan_val = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-2').textContent
+      const membership_plan_val = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-2').textContent;
+      const _membership_plan_val = membership_plan_val.includes('.') ? membership_plan_val.slice(0, -3) : membership_plan_val;
       const membership_plan_month_text = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-js > small').textContent
-      localStorage.setItem("form-membership-value", `${membership_plan_name} - ${membership_plan_val} ${membership_plan_month_text}`);
+
+      console.log("test", _membership_plan_val)
+      const membership_text = membership_plan_month_text == 'month' ? '/ month' : membership_plan_month_text
+      localStorage.setItem("form-membership-value", `${membership_plan_name} - ${_membership_plan_val} ${membership_text}`);
     });
   })
 
@@ -1002,13 +1040,7 @@ window.onload = function(event) {
   const input_membership = document.querySelector('input[name=membership]');
   const input_membership_val = localStorage.getItem('form-membership-value')
   // input_membership.value = input_membership_val
-
-
-  // // input_membership.disabled = true
-  // // input_membership.dispatchEvent(new Event('input', {bubbles: true}));
-  // console.log("heres", input_membership)
-
-  document.querySelector(`input[value="${input_membership_val}"]`).click();
+  document.querySelector(`input[value="${input_membership_val}"]`)?.click();
   // radioBtn.checked = true;
 };
 

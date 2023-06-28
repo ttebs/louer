@@ -1,0 +1,57 @@
+{% capture customer_msg %}
+  {% assign custom_date = customer.metafields.custom.due_date | date: "%s" %}
+  {% assign present_date = 'now' | date: "%s" %}
+  {% assign difference_seconds = present_date | minus: custom_date %}
+  {% assign difference_days = difference_seconds | divided_by: 86400 | remove: '-' %}
+
+  <div class="customer-msg">
+    <p>Hi {{ customer.first_name }},</p>
+    <br>
+    <p>Welcome to your Louer Le sac online account.</p>
+    <p>You have
+      <strong>{{ difference_days }} days</strong>
+      left on your current bag rental, to extend please renew 48 h prior your last day.</p>
+  </div>
+{% endcapture %}
+
+<div>
+  {{ customer_msg }}
+</div>
+<h2 class="my-account-details">Account Details</h2>
+<section class="my-account-details-list">
+  <div>
+    <h2>CONTACT DETAILS</h2>
+    <p>{{ customer.email }}</p>
+
+    {%- for line_item in order.line_items -%}
+      <p>test</p>
+      {{ line_item.url }}
+    {% endfor %}
+  </div>
+  <div>
+    <h2>MEMBERSHIP</h2>
+    <p>{{ customer.metafields.customer_fields.monthly_membership_plan }}</p>
+  </div>
+  <div>
+    <h2>WISHLIST</h2>
+    <p>View and shop the items in your wishlist.</p>
+  </div>
+</section>
+<section class="my-account-details-list">
+  <div>
+    <h2>CONTACT DETAILS</h2>
+    {%- for order in customer.orders -%}
+      {% for item in order.line_items %}
+        <img src="{{ item.image | img_url: 'medium' }}" alt="{{ item.title }}">
+      {% endfor %}
+    {% endfor %}
+  </div>
+  <div>
+    <h2>CURRENT BAG</h2>
+    <p>Love this bag so much you want to keep it?</p>
+  </div>
+  <div>
+    <h2>REWARDS</h2>
+    <p>Every new member will earn you $100 in credit</p>
+  </div>
+</section>

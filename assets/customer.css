@@ -417,7 +417,7 @@
 @media screen and (min-width: 990px) {
   :is(.account, .order) > div:nth-of-type(2) {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 }
 
@@ -440,16 +440,23 @@
 
 :is(.account, .order) p {
   margin: 0 0 2rem;
-  font-size: 1.6rem;
+  line-height: 0px;
+  font-size: 13px;
 }
 
 :is(.account, .order) h1 {
   margin-bottom: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 :is(.account, .order) h2 {
   margin-top: 4rem;
   margin-bottom: 1rem;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 990px) {
@@ -752,4 +759,66 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7),
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
+}
+
+/* custom styling for my account */
+.customer.account {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin-top: 24px;
+}
+.my-account {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.customer-msg {
+  margin-top: 30px;
+}
+.customer-msg > p:first-child {
+  text-transform: capitalize;
+}
+.customer-msg > p > strong {
+  font-weight: bold;
+}
+.customer-address > p {
+  line-height: 22px;
+}
+.my-account__sidebar {
+  width: 20%;
+}
+.my-account__sidebar > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.my-account__sidebar > ul > li {
+  line-height: 20px;
+}
+.my-account__sidebar > ul > li > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  color: inherit;
+  transition: none;
+}
+.my-account__sidebar > ul > li > a.active {
+  font-weight: bold;
+}
+h2.my-account-details {
+  margin-top: 60px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+}
+.my-account-details-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.my-account-details-list > div {
+  width: 33.33333%;
+  margin-bottom: 45px;
+}
+.my-account-details-list > div > img {
+  border: 1px solid #a5a5a5;
 }
