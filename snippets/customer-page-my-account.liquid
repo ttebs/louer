@@ -1,8 +1,12 @@
 {% capture customer_msg %}
   {% assign custom_date = customer.metafields.custom.due_date | date: "%s" %}
   {% assign present_date = 'now' | date: "%s" %}
-  {% assign difference_seconds = present_date | minus: custom_date %}
-  {% assign difference_days = difference_seconds | divided_by: 86400 | remove: '-' %}
+  {% if present_date < custom_date %}
+    {% assign difference_seconds = present_date | minus: custom_date %}
+    {% assign difference_days = difference_seconds | divided_by: 86400 | remove: '-' %}
+  {% else %}
+    {% assign difference_days = 0 %}
+  {% endif %}
 
   <div class="customer-msg">
     <p>Hi {{ customer.first_name }},</p>
@@ -22,11 +26,6 @@
   <div>
     <h2>CONTACT DETAILS</h2>
     <p>{{ customer.email }}</p>
-
-    {%- for line_item in order.line_items -%}
-      <p>test</p>
-      {{ line_item.url }}
-    {% endfor %}
   </div>
   <div>
     <h2>MEMBERSHIP</h2>
