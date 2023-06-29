@@ -38,6 +38,36 @@
         "padding_bottom": 0
       }
     },
+    "2c3a7c52-ce53-4fd7-8a55-de50e5040358": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".color-background-1 {display: none;}"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "membership-plan",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c3f0aa84-d30b-4f6f-8ffa-b3b03dd6f278": {
       "type": "multicolumn-custom",
       "blocks": {
@@ -253,6 +283,7 @@
   "order": [
     "main",
     "002818ab-a479-4d65-a555-a81bb5faac4a",
+    "2c3a7c52-ce53-4fd7-8a55-de50e5040358",
     "c3f0aa84-d30b-4f6f-8ffa-b3b03dd6f278",
     "f8c68040-d571-406a-8d38-28b927333cfc",
     "c0d1c9f3-342d-47a0-a6b1-aabcf3b81253"
