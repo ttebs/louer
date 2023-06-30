@@ -948,12 +948,27 @@ customElements.define('product-recommendations', ProductRecommendations);
 
 
 // ********************* MEMBERSHIP PLAN ********************* 
+let product_type = document.querySelector('[data-producttype="Membership Plan"]');
+if(product_type) {
+  document.querySelector('.product-form__quantity').style.display = 'none';
+  document.querySelector('button.product-form__submit').style.display = 'none';
+  document.querySelector('button.share-button__button').style.display = 'none';
+}
+
 window.onload = function(event) {
-  const plan = document.querySelector('.product__info-wrapper.grid__item');
-  if(plan) {
-    const plan_val = plan.dataset.plan
+  if(product_type) {
+    const but_it_now_button = document.querySelector('.shopify-payment-button__button')
+    setTimeout(() => {
+      but_it_now_button.click()
+    }, "500");
+
+    const plan = document.querySelector('.product__info-wrapper.grid__item');
+    const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
     const plan_choices = ['Delivery every 90 Days', 'Delivery every 180 Days', 'Delivery every 365 Days']
     let plan_months = ""
+
+    document.querySelector('form.installment').style.visibility = 'hidden';
+    
   
     if(plan_val.includes('3mos')) {
       plan_months = plan_choices[0]
@@ -987,7 +1002,6 @@ window.onload = function(event) {
   // selecting plan by monthly
   const pay_monthly = document.querySelectorAll('.multicolumn--style-4 .multicolumn-card__info > h3');
   const membership_plans = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info-price-2');
-  const membership_plans_button = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > a');
   pay_monthly.forEach((insidebox) => {
     insidebox.addEventListener('click', function () {
       membership_plans.forEach((plan, index) => {
@@ -1022,15 +1036,45 @@ window.onload = function(event) {
     });
   })
 
+
+  
+  
+  function onElementExists() {
+    window.location.href = "/account/register";
+  }
+  function checkCartPopupExist(targetElement) {
+    // const targetElement = document.querySelector(".cart-notification.active");
+    if (targetElement) onElementExists(); 
+    else {
+      const observer = new MutationObserver(checkCartPopupExist);
+      observer.observe(document, { childList: true, subtree: true });
+    }
+  }
+
   // click the apply now button
+  const membership_plans_button = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > a');
+  // document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > button').forEach((insidebox) => {
   membership_plans_button.forEach((insidebox) => {
     insidebox.addEventListener('click', function () {
+      // checkCartPopupExist();
+      // const button_selected = insidebox.dataset.btn
+      // const membership = document.querySelector('.collection__title > h2').innerHTML;
+
+      // if(membership == "Membership") {
+      //   const product_item = document.querySelectorAll('.collection ul.product-grid > li');
+      //   product_item.forEach((item, index) => {
+      //     if(button_selected == index) {
+      //       item.querySelector('.quick-add__submit').click();
+      //     }
+      //   })
+      // }
+      // button.click()
+
       const membership_plan_name = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info > h3').textContent
       const membership_plan_val = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-2').textContent;
       const _membership_plan_val = membership_plan_val.includes('.') ? membership_plan_val.slice(0, -3) : membership_plan_val;
       const membership_plan_month_text = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-js > small').textContent
 
-      console.log("test", _membership_plan_val)
       const membership_text = membership_plan_month_text == 'month' ? '/ month' : membership_plan_month_text
       localStorage.setItem("form-membership-value", `${membership_plan_name} - ${_membership_plan_val} ${membership_text}`);
     });
