@@ -962,6 +962,7 @@ window.onload = function(event) {
 
     // trigger click on buy now button after form submission
     const but_it_now_button = document.querySelector('.shopify-payment-button__button')
+    console.log("but_it_now_button", but_it_now_button)
     setTimeout(() => {
       but_it_now_button.click()
     }, "1500");
