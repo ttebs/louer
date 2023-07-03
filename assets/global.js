@@ -960,7 +960,7 @@ window.onload = function(event) {
     const but_it_now_button = document.querySelector('.shopify-payment-button__button')
     setTimeout(() => {
       but_it_now_button.click()
-    }, "500");
+    }, "1500");
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
