@@ -108,7 +108,8 @@
         "h1,.price__regular .price-item--regular {text-transform: uppercase; font-size: 17px; font-weight: bold; color: #000;}",
         ".product-form__buttons {display: flex; align-items: flex-start; justify-content: space-between;}",
         ".product-form__submit,.shopify-payment-button__button {width: 40%; color: #000; border: 2px solid #e7e7e7; background: #f9f9f9; text-transform: uppercase; font-size: 13px; border-radius: 3px;}",
-        ".shopify-payment-button {width: 40%;}"
+        ".shopify-payment-button {width: 40%;}",
+        ".product-form__input{display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
