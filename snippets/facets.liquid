@@ -799,7 +799,8 @@ const selectors = document.querySelectorAll('#FacetsWrapperDesktop .facet-checkb
 
 const redirectUrl = (param) => {
      const filtering = getParameter('sort_by') || 'title-ascending';
-     window.location.href = `/collections/all?filter.p.tag=${param}&sort_by=${filtering}`;
+     const _param = param.charAt(0).toUpperCase() + param.slice(1).toLowerCase()
+     window.location.href = `/collections/all?filter.p.tag=${_param}&sort_by=${filtering}`;
 }
 
 (() => {

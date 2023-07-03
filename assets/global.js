@@ -950,6 +950,7 @@ customElements.define('product-recommendations', ProductRecommendations);
 // ********************* MEMBERSHIP PLAN ********************* 
 let product_type = document.querySelector('[data-producttype="Membership Plan"]');
 if(product_type) {
+  // hide add to cart button on product page
   document.querySelector('.product-form__quantity').style.display = 'none';
   document.querySelector('button.product-form__submit').style.display = 'none';
   document.querySelector('button.share-button__button').style.display = 'none';
@@ -957,18 +958,18 @@ if(product_type) {
 
 window.onload = function(event) {
   if(product_type) {
+    document.querySelector('form.installment').style.visibility = 'hidden';
+
+    // trigger click on buy now button after form submission
     const but_it_now_button = document.querySelector('.shopify-payment-button__button')
     setTimeout(() => {
       but_it_now_button.click()
-    }, "500");
+    }, "1500");
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
     const plan_choices = ['Delivery every 90 Days', 'Delivery every 180 Days', 'Delivery every 365 Days']
     let plan_months = ""
-
-    document.querySelector('form.installment').style.visibility = 'hidden';
-    
   
     if(plan_val.includes('3mos')) {
       plan_months = plan_choices[0]
@@ -988,11 +989,9 @@ window.onload = function(event) {
       }
     }
     waitForElement("select.rc-selling-plans__dropdown", (element) => {
-      // element.style.visibility = "hidden";
-  
       const optionToSelect = element.querySelector(`option[data-plan-option='${plan_months}']`);
       optionToSelect.selected = true;
-  
+
       // trigger change event after selecting a value option
       const changeEvent = new Event("change");
       element.dispatchEvent(changeEvent);
@@ -1035,9 +1034,6 @@ window.onload = function(event) {
       })
     });
   })
-
-
-  
   
   function onElementExists() {
     window.location.href = "/account/register";
