@@ -71,6 +71,14 @@
 
 .multicolumn-list h3 {
   line-height: calc(1 + 0.5 / max(1, var(--font-heading-scale)));
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.multicolumn--style-4 .multicolumn-list h3 {
+  font-size: 15px;
+  letter-spacing: 0;
 }
 
 .multicolumn-list h3,
@@ -134,6 +142,28 @@
 
 .multicolumn-card__info {
   padding: 2.5rem;
+}
+
+.multicolumn-card__info h4 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.multicolumn-card__info-price-1 {
+  font-size: 15px;
+}
+
+.bottom__price.mx-2.my-3 {
+  font-style: italic;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+}
+
+.multicolumn-card__info-price-js {
+  font-size: 15px;
 }
 
 .background-none .multicolumn-card__info {
@@ -214,6 +244,8 @@
   text-decoration: none;
   font-size: inherit;
   margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 11px !important;
 }
 
 .multicolumn-card__info .icon-wrap {
@@ -225,4 +257,16 @@
   .multicolumn-list__item--empty {
     display: list-item;
   }
+}
+
+.multicolumn--style-5 .multicolumn-card__info h3 {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 15px;
+}
+
+.multicolumn-list p {
+  font-size: 14px;
 }

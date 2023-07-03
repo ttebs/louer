@@ -1010,22 +1010,22 @@ window.onload = function(event) {
         if(index == 0) plan_value = 250
         else if (index == 1) plan_value = 500 
         else plan_value = 950
-
-        switch (insidebox.innerText) {
-          case "Pay Monthy":
+        
+        switch (insidebox.innerText.toLowerCase()) {
+          case "pay monthy":
               plan.innerHTML = `$${plan_value}`;
               plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "month"
               break;
-          case "Prepay 3 Months":
+          case "prepay 3 months":
               plan.innerHTML = `$${plan_value * 3}`;
               plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "/3mos."
             break;
-          case "Prepay 6 months":
+          case "prepay 6 months":
               console.log("koko")
               plan.innerHTML = `$${plan_value * 6}`;
               plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "/6mos."
             break;
-          case "Prepay 12 months":
+          case "prepay 12 months":
               plan.innerHTML = `$${plan_value * 12}`;
               plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "/12mos."
             break;

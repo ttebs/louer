@@ -6,7 +6,8 @@
     text-transform: uppercase;
     color: #a5a5a5;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 .footer__content-top {
