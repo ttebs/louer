@@ -953,7 +953,7 @@ if(product_type) {
   // hide add to cart button on product page
   document.querySelector('.product-form__quantity').style.display = 'none';
   document.querySelector('button.product-form__submit').style.display = 'none';
-  document.querySelector('button.share-button__button').style.display = 'none';
+  // document.querySelector('button.share-button__button').style.display = 'none';
 }
 
 window.onload = function(event) {
@@ -1010,7 +1010,7 @@ window.onload = function(event) {
         if(index == 0) plan_value = 250
         else if (index == 1) plan_value = 500 
         else plan_value = 950
-        
+
         switch (insidebox.innerText.toLowerCase()) {
           case "pay monthy":
               plan.innerHTML = `$${plan_value}`;
