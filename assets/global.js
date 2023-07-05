@@ -961,7 +961,7 @@ function onElementExists(targetElement) {
   console.log("targetElement", targetElement)
   setTimeout(() => {
       targetElement.click();
-    }, "2000");
+    }, "1000");
 }
 function checkCartPopupExist(targetElement) {
   // const targetElement = document.querySelector(".cart-notification.active");
