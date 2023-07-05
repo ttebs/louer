@@ -1018,6 +1018,7 @@ document.addEventListener('DOMContentLoaded', function() {
     waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
       // Element with the specified selector exists
       // You can perform your desired action here, such as clicking the element
+      console.log("popo")
       element.click();
     });
   });
