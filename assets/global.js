@@ -987,6 +987,29 @@ function checkCartPopupExist(targetElement) {
 //     }, "2000");
 // }
 
+function waitForElement(selector, callback) {
+    var observer = new MutationObserver(function(mutations) {
+      var element = document.querySelector(selector);
+      if (element) {
+        observer.disconnect();
+        callback(element);
+      }
+    });
+
+    observer.observe(document.documentElement, {
+      childList: true,
+      subtree: true
+    });
+  }
+
+document.addEventListener('DOMContentLoaded', function() {
+    waitForElement('button[data-testid="Checkout-button"]', function(element) {
+      // Element with the specified selector exists
+      // You can perform your desired action here, such as clicking the element
+      element.click();
+    });
+  });
+
 
 window.onload = function(event) {
   if(product_type) {
@@ -994,9 +1017,9 @@ window.onload = function(event) {
     document.querySelector('form.installment').style.visibility = 'hidden';
 
     // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
-    const but_it_now_button = document.querySelector('button[data-testid="Checkout-button"]')
-    console.log("but_it_now_button", but_it_now_button)
-    checkCartPopupExist(but_it_now_button)
+    // const but_it_now_button = document.querySelector('button[data-testid="Checkout-button"]')
+    // console.log("but_it_now_button", but_it_now_button)
+    // checkCartPopupExist(but_it_now_button)
     // setTimeout(() => {
     //   but_it_now_button.click()
     // }, "2000");
