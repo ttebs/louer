@@ -1009,7 +1009,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } 
     setTimeout(() => {
       element.click();
-    }, "1000");
+    }, "2000");
   });
 });
 
