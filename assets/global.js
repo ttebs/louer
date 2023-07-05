@@ -965,7 +965,7 @@ window.onload = function(event) {
     console.log("but_it_now_button", but_it_now_button)
     setTimeout(() => {
       but_it_now_button.click()
-    }, "1500");
+    }, "2000");
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
