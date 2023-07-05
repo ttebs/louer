@@ -973,12 +973,15 @@ function checkCartPopupExist(targetElement) {
 // Function to simulate a click event
 function simulateClick(element) {
   console.log("element", element)
-  var event = new MouseEvent('click', {
-    bubbles: true,
-    cancelable: true,
-    view: window
-  });
-  element.dispatchEvent(event);
+  setTimeout(() => {
+    console.log("element2", element)
+    var event = new MouseEvent('click', {
+      bubbles: true,
+      cancelable: true,
+      view: window
+    });
+    element.dispatchEvent(event);
+    }, "2000");
 }
 
 
