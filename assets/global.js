@@ -956,13 +956,13 @@ if(product_type) {
   // document.querySelector('button.share-button__button').style.display = 'none';
 }
 
-function onElementExists() {
+function onElementExists(targetElement) {
   // window.location.href = "/account/register";
-  but_it_now_button.click();
+  targetElement.click();
 }
 function checkCartPopupExist(targetElement) {
   // const targetElement = document.querySelector(".cart-notification.active");
-  if (targetElement) onElementExists(); 
+  if (targetElement) onElementExists(targetElement); 
   else {
     const observer = new MutationObserver(checkCartPopupExist);
     observer.observe(document, { childList: true, subtree: true });
