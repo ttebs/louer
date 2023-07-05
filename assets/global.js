@@ -965,9 +965,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Check if the button exists
   if (but_it_now_button) {
     // Trigger a click event on the button
-  console.log("but_it_now_button here")
-    
-    but_it_now_button.click();
+    console.log("but_it_now_button here")
+     setTimeout(() => {
+      but_it_now_button.click()
+    }, "2000");
   }
 });
 
