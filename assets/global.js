@@ -1015,7 +1015,7 @@ function waitForVisibleElement(selector, callback) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    waitForElement('button[data-testid="Checkout-button"]', function(element) {
+    waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
       // Element with the specified selector exists
       // You can perform your desired action here, such as clicking the element
       element.click();
