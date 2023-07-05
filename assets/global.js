@@ -961,6 +961,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('form.installment').style.visibility = 'hidden';
   const but_it_now_button = document.querySelector('.shopify-payment-button__button')
 
+  console.log("but_it_now_button", but_it_now_button)
   // Check if the button exists
   if (but_it_now_button) {
     // Trigger a click event on the button
