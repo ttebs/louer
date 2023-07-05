@@ -12,7 +12,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".facet-checkbox {font-size: 14px; text-transform: uppercase; padding: 0 7px 10px;}",
-        ".card__heading {font-size: 15px;}"
+        ".card__heading {font-size: 13px; text-transform: uppercase;}"
       ],
       "settings": {
         "products_per_page": 16,
