@@ -1000,24 +1000,35 @@ function isElementHidden(element) {
   return computedStyle.display === 'none';
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
-    const myElement = document.querySelector('.product-form__submit');
-    if (isElementHidden(myElement)) {
-      document.querySelector('.shopify-payment-button').style.width = '100%';
-      document.querySelector('.shopify-payment-button button').style.width = '100%';
-    } 
-    setTimeout(() => {
-      element.click();
-    }, "2000");
-  });
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
+//     const myElement = document.querySelector('.product-form__submit');
+//     if (isElementHidden(myElement)) {
+//       document.querySelector('.shopify-payment-button').style.width = '100%';
+//       document.querySelector('.shopify-payment-button button').style.width = '100%';
+//     } 
+//     setTimeout(() => {
+//       element.click();
+//     }, "2000");
+//   });
+// });
 
 
 window.onload = function(event) {
   if(product_type) {
     // trigger click on buy now button after form submission
     document.querySelector('form.installment').style.visibility = 'hidden';
+
+    waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
+      const myElement = document.querySelector('.product-form__submit');
+      if (isElementHidden(myElement)) {
+        document.querySelector('.shopify-payment-button').style.width = '100%';
+        document.querySelector('.shopify-payment-button button').style.width = '100%';
+      } 
+      setTimeout(() => {
+        element.click();
+      }, "2000");
+    });
 
     // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
     // const but_it_now_button = document.querySelector('button[data-testid="Checkout-button"]')
