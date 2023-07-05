@@ -956,20 +956,29 @@ if(product_type) {
   // document.querySelector('button.share-button__button').style.display = 'none';
 }
 
+function onElementExists() {
+  // window.location.href = "/account/register";
+  but_it_now_button.click();
+}
+function checkCartPopupExist(targetElement) {
+  // const targetElement = document.querySelector(".cart-notification.active");
+  if (targetElement) onElementExists(); 
+  else {
+    const observer = new MutationObserver(checkCartPopupExist);
+    observer.observe(document, { childList: true, subtree: true });
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   // Find the "Add to Cart" button
   document.querySelector('form.installment').style.visibility = 'hidden';
   const but_it_now_button = document.querySelector('.shopify-payment-button__button')
-
-  console.log("but_it_now_button", but_it_now_button)
+  checkCartPopupExist(but_it_now_button)
   // Check if the button exists
-  if (but_it_now_button) {
-    // Trigger a click event on the button
-    console.log("but_it_now_button here")
-     setTimeout(() => {
-      but_it_now_button.click()
-    }, "2000");
-  }
+  // if (but_it_now_button) {
+  //   // Trigger a click event on the button
+  //   but_it_now_button.click();
+  // }
 });
 
 
@@ -1050,18 +1059,6 @@ window.onload = function(event) {
       })
     });
   })
-  
-  function onElementExists() {
-    window.location.href = "/account/register";
-  }
-  function checkCartPopupExist(targetElement) {
-    // const targetElement = document.querySelector(".cart-notification.active");
-    if (targetElement) onElementExists(); 
-    else {
-      const observer = new MutationObserver(checkCartPopupExist);
-      observer.observe(document, { childList: true, subtree: true });
-    }
-  }
 
   // click the apply now button
   const membership_plans_button = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > a');
