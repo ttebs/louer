@@ -958,12 +958,13 @@ if(product_type) {
 
 function onElementExists(targetElement) {
   // window.location.href = "/account/register";
-  console.log("targetElement", targetElement)
+  console.log("targetElementsssss", targetElement)
   setTimeout(() => {
       targetElement.click();
     }, "1000");
 }
 function checkCartPopupExist(targetElement) {
+  console.log("here", targetElement)
   // const targetElement = document.querySelector(".cart-notification.active");
   if (targetElement) onElementExists(targetElement); 
   else {
