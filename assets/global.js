@@ -997,7 +997,7 @@ function isVisible(element) {
 document.addEventListener('DOMContentLoaded', function() {
   waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
     setTimeout(() => {
-      element.click();
+      // element.click();
     }, "2000");
   });
 });
