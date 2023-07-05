@@ -970,17 +970,36 @@ function checkCartPopupExist(targetElement) {
   }
 }
 
+// Function to simulate a click event
+function simulateClick(element) {
+  var event = new MouseEvent('click', {
+    bubbles: true,
+    cancelable: true,
+    view: window
+  });
+  element.dispatchEvent(event);
+}
+
 
 window.onload = function(event) {
   if(product_type) {
     // trigger click on buy now button after form submission
     document.querySelector('form.installment').style.visibility = 'hidden';
 
+    // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
+    // console.log("but_it_now_button", but_it_now_button)
+    // setTimeout(() => {
+    //   but_it_now_button.click()
+    // }, "2000");
+
+    // Find the "Add to Cart" button
     const but_it_now_button = document.querySelector('.shopify-payment-button__button')
-    console.log("but_it_now_button", but_it_now_button)
-    setTimeout(() => {
-      but_it_now_button.click()
-    }, "2000");
+
+    // Check if the button exists
+    if (but_it_now_button) {
+      // Simulate a click event on the button
+      simulateClick(but_it_now_button);
+    }
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
