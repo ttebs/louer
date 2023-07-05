@@ -1001,7 +1001,7 @@ function isElementHidden(element) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  var myElement = document.querySelector('.product-form__submit"]');
+  var myElement = document.querySelector('.product-form__submit');
   if (isElementHidden(myElement)) {
     document.querySelector('.shopify-payment-button').style.width = '100%';
     document.querySelector('button[data-testid="Checkout-button"]').style.width = '100%';
