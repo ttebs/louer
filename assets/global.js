@@ -993,9 +993,10 @@ window.onload = function(event) {
     // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
     const but_it_now_button = document.querySelector('button[data-testid="Checkout-button"]')
     console.log("but_it_now_button", but_it_now_button)
-    setTimeout(() => {
-      but_it_now_button.click()
-    }, "2000");
+    checkCartPopupExist(but_it_now_button)
+    // setTimeout(() => {
+    //   but_it_now_button.click()
+    // }, "2000");
     // checkCartPopupExist(but_it_now_button)
     
     // console.log("but_it_now_button", but_it_now_button)
