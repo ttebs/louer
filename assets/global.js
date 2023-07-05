@@ -958,13 +958,9 @@ if(product_type) {
 
 function onElementExists(targetElement) {
   // window.location.href = "/account/register";
-  console.log("targetElementsssss", targetElement)
-  setTimeout(() => {
-      targetElement.click();
-    }, "1000");
+  targetElement.click();
 }
 function checkCartPopupExist(targetElement) {
-  console.log("here", targetElement)
   // const targetElement = document.querySelector(".cart-notification.active");
   if (targetElement) onElementExists(targetElement); 
   else {
@@ -972,20 +968,6 @@ function checkCartPopupExist(targetElement) {
     observer.observe(document, { childList: true, subtree: true });
   }
 }
-
-// Function to simulate a click event
-// function simulateClick(element) {
-//   console.log("element", element)
-//   setTimeout(() => {
-//     console.log("element2", element)
-//     var event = new MouseEvent('click', {
-//       bubbles: true,
-//       cancelable: true,
-//       view: window
-//     });
-//     element.dispatchEvent(event);
-//     }, "2000");
-// }
 
 function waitForVisibleElement(selector, callback) {
     var observer = new MutationObserver(function(mutations) {
@@ -1002,28 +984,23 @@ function waitForVisibleElement(selector, callback) {
     });
   }
 
-// Function to check if an element is visible
-  function isVisible(element) {
-    return (
-      element &&
-      getComputedStyle(element).display !== 'none' &&
-      getComputedStyle(element).visibility !== 'hidden' &&
-      element.offsetWidth > 0 &&
-      element.offsetHeight > 0
-    );
-  }
-
+function isVisible(element) {
+  return (
+    element &&
+    getComputedStyle(element).display !== 'none' &&
+    getComputedStyle(element).visibility !== 'hidden' &&
+    element.offsetWidth > 0 &&
+    element.offsetHeight > 0
+  );
+}
 
 document.addEventListener('DOMContentLoaded', function() {
-    waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
-      // Element with the specified selector exists
-      // You can perform your desired action here, such as clicking the element
-      // element.click();
-      setTimeout(() => {
-        element.click();
-      }, "2000");
-    });
+  waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
+    setTimeout(() => {
+      element.click();
+    }, "2000");
   });
+});
 
 
 window.onload = function(event) {
