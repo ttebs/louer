@@ -1007,6 +1007,11 @@ window.onload = function(event) {
   if(product_type) {
     // trigger click on buy now button after form submission
     document.querySelector('form.installment').style.visibility = 'hidden';
+    if(getComputedStyle(document.querySelector('.product-form__submit"]')).display == 'none') {
+      document.querySelector('.shopify-payment-button').style.width = '100%';
+      document.querySelector('button[data-testid="Checkout-button"]').style.width = '100%';
+    }
+
 
     // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
     // const but_it_now_button = document.querySelector('button[data-testid="Checkout-button"]')
