@@ -956,16 +956,27 @@ if(product_type) {
   // document.querySelector('button.share-button__button').style.display = 'none';
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Find the "Add to Cart" button
+  document.querySelector('form.installment').style.visibility = 'hidden';
+  const but_it_now_button = document.querySelector('.shopify-payment-button__button')
+
+  // Check if the button exists
+  if (but_it_now_button) {
+    // Trigger a click event on the button
+    but_it_now_button.click();
+  }
+});
+
+
 window.onload = function(event) {
   if(product_type) {
-    document.querySelector('form.installment').style.visibility = 'hidden';
-
     // trigger click on buy now button after form submission
-    const but_it_now_button = document.querySelector('.shopify-payment-button__button')
-    console.log("but_it_now_button", but_it_now_button)
-    setTimeout(() => {
-      but_it_now_button.click()
-    }, "2000");
+    // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
+    // console.log("but_it_now_button", but_it_now_button)
+    // setTimeout(() => {
+    //   but_it_now_button.click()
+    // }, "2000");
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
