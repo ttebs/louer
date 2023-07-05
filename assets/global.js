@@ -987,10 +987,10 @@ function checkCartPopupExist(targetElement) {
 //     }, "2000");
 // }
 
-function waitForElement(selector, callback) {
+function waitForVisibleElement(selector, callback) {
     var observer = new MutationObserver(function(mutations) {
       var element = document.querySelector(selector);
-      if (element) {
+      if (element && isVisible(element)) {
         observer.disconnect();
         callback(element);
       }
@@ -1001,6 +1001,18 @@ function waitForElement(selector, callback) {
       subtree: true
     });
   }
+
+// Function to check if an element is visible
+  function isVisible(element) {
+    return (
+      element &&
+      getComputedStyle(element).display !== 'none' &&
+      getComputedStyle(element).visibility !== 'hidden' &&
+      element.offsetWidth > 0 &&
+      element.offsetHeight > 0
+    );
+  }
+
 
 document.addEventListener('DOMContentLoaded', function() {
     waitForElement('button[data-testid="Checkout-button"]', function(element) {
