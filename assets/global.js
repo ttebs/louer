@@ -974,6 +974,8 @@ function checkCartPopupExist(targetElement) {
 window.onload = function(event) {
   if(product_type) {
     // trigger click on buy now button after form submission
+    document.querySelector('form.installment').style.visibility = 'hidden';
+
     const but_it_now_button = document.querySelector('.shopify-payment-button__button')
     console.log("but_it_now_button", but_it_now_button)
     setTimeout(() => {
