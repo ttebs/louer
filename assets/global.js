@@ -1001,12 +1001,6 @@ function isElementHidden(element) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  // var myElement = document.querySelector('.product-form__submit');
-  // if (isElementHidden(myElement)) {
-  //   document.querySelector('.shopify-payment-button').style.width = '100%';
-  //   document.querySelector('.shopify-payment-button button').style.width = '100%';
-  // } 
-
   waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
     const myElement = document.querySelector('.product-form__submit');
     if (isElementHidden(myElement)) {
@@ -1014,8 +1008,8 @@ document.addEventListener('DOMContentLoaded', function() {
       document.querySelector('.shopify-payment-button button').style.width = '100%';
     } 
     setTimeout(() => {
-      // element.click();
-    }, "2000");
+      element.click();
+    }, "1000");
   });
 });
 
