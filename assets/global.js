@@ -958,6 +958,7 @@ if(product_type) {
 
 function onElementExists(targetElement) {
   // window.location.href = "/account/register";
+  console.log("targetElement", targetElement)
   targetElement.click();
 }
 function checkCartPopupExist(targetElement) {
