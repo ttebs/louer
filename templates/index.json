@@ -1,1 +1,329 @@
-{"sections":{"12ab496d-b0e0-4f04-aab6-8144e9d4f8ca":{"type":"custom-image-banner","blocks":{"62eb694b-3f48-4d2e-9fce-7d5b2e3c3e5e":{"type":"heading","settings":{"heading":"Autumn","heading_size":"h1"}},"baca78a2-2a21-4d56-ae34-d3a7c16c7fc0":{"type":"heading","settings":{"heading":"Must-Haves","heading_size":"h1"}},"9d0d8e28-17e7-4a00-8565-6a92610ae1c5":{"type":"text","settings":{"text":"A","text_style":"subtitle"}},"template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-1":{"type":"text","settings":{"text":"this product will elevate your autumn wardrobe","text_style":"subtitle"}},"template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-2":{"type":"buttons","settings":{"button_label_1":"How it works","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["62eb694b-3f48-4d2e-9fce-7d5b2e3c3e5e","baca78a2-2a21-4d56-ae34-d3a7c16c7fc0","9d0d8e28-17e7-4a00-8565-6a92610ae1c5","template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-1","template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-2"],"settings":{"customClass":"multicolumn--style-1 banner__custom--page-width banner__custom--titles banner__custom--subtitles","image":"shopify:\/\/shop_images\/bringing-some-sparkle-on-a-walk.jpg","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-right","show_text_box":false,"desktop_content_alignment":"right","color_scheme":"accent-2","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":false}},"02114c89-ce86-4377-9173-a00ffef01fd4":{"type":"brands-icons","blocks":{"template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/VOGUE_LOGO.png","title":"","text":"","link_label":"","link":""}},"template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/forbes-logo-gray.png","title":"","text":"","link_label":"","link":""}},"template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/New-York-Times-logo.png","title":"","text":"","link_label":"","link":""}},"f09185d1-bc1c-4fd0-bfb5-209c7a3e73cb":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Harpers_Bazaar_logo_logotype_dde4ef9c-85bb-4727-9264-8d56528b6092.png","title":"","text":"","link_label":"","link":""}}},"block_order":["template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-0","template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-1","template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-2","f09185d1-bc1c-4fd0-bfb5-209c7a3e73cb"],"settings":{"customClass":"multicolumn--style-0","title":"Featured In","heading_size":"h1","image_width":"half","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":64,"padding_bottom":76}},"e5926246-6c1a-4b01-a2ee-d649b412fb10":{"type":"multicolumn","disabled":true,"blocks":{"template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/VOGUE_LOGO_e5634fd2-66d5-4f06-972c-c0e32587e47b.png","title":"","text":"","link_label":"","link":""}},"template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/forbes-logo-gray.png","title":"","text":"","link_label":"","link":""}},"52ed5ede-ebf1-47ca-9e81-89a28ef68810":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/2560px-The_New_York_Times_Logo.png","title":"","text":"","link_label":"","link":""}},"template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Harpers_Bazaar_logo_logotype_dde4ef9c-85bb-4727-9264-8d56528b6092.png","title":"","text":"","link_label":"","link":""}}},"block_order":["template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-0","template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-1","52ed5ede-ebf1-47ca-9e81-89a28ef68810","template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-2"],"settings":{"customClass":"multicolumn--style-0","title":"Featured In","heading_size":"h1","image_width":"half","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":64,"padding_bottom":76}},"6fa72e62-4172-4ab7-b40d-e2af5880c323":{"type":"image-with-text","blocks":{"template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-0":{"type":"heading","settings":{"heading":"Become a member","heading_size":"h0"}},"template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-1":{"type":"text","settings":{"text":"<p><strong>Join<\/strong> our private members club <\/p><p>that provides you to sublet the word's<\/p><p> most sourced luxury bags.<\/p>","text_style":"body"}},"8da004fd-3b0c-42b0-bcce-6e5ebfaeb9e3":{"type":"caption","settings":{"caption":"The Wish Without The Waitlist.","text_style":"subtitle","text_size":"medium"}},"template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2":{"type":"button","settings":{"button_label":"View membership tiers","button_link":"shopify:\/\/collections\/all"}}},"block_order":["template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-0","template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-1","8da004fd-3b0c-42b0-bcce-6e5ebfaeb9e3","template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2"],"settings":{"overlaplogo":"shopify:\/\/shop_images\/lour-white-logo-ts.png","image":"shopify:\/\/shop_images\/eeebc93bfc4351bec4feb8169e6b97c0.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","customClass":"custom__banner--with-text custom__banner--theme-1","desktop_content_position":"top","desktop_content_alignment":"center","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"center","padding_top":36,"padding_bottom":100}},"d7c0d13e-836d-469e-9a45-ed69f32d3416":{"type":"rich-text","blocks":{"template--17167329427759__d7c0d13e-836d-469e-9a45-ed69f32d3416-1672172536ad0c745d-0":{"type":"heading","settings":{"heading":"<p>Follow Us On Instagram<\/p>","heading_size":"h1"}}},"block_order":["template--17167329427759__d7c0d13e-836d-469e-9a45-ed69f32d3416-1672172536ad0c745d-0"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":0}},"1672172443786eafc5":{"type":"apps","blocks":{"49b2b844-c1d0-4ac4-a702-634fce10ae45":{"type":"shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5","settings":{"heading_size":20,"feed_width":100,"html_area":""}}},"block_order":["49b2b844-c1d0-4ac4-a702-634fce10ae45"],"settings":{"include_margins":true}},"26b04f6b-20ce-43c4-848f-a3a56a50c75c":{"type":"custom-image-banner","settings":{"customClass":"banner__custom--page-width","image":"shopify:\/\/shop_images\/Pink_bags.png","image_overlay_opacity":0,"image_height":"large","adapt_height_first_image":true,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}}},"order":["12ab496d-b0e0-4f04-aab6-8144e9d4f8ca","02114c89-ce86-4377-9173-a00ffef01fd4","e5926246-6c1a-4b01-a2ee-d649b412fb10","6fa72e62-4172-4ab7-b40d-e2af5880c323","d7c0d13e-836d-469e-9a45-ed69f32d3416","1672172443786eafc5","26b04f6b-20ce-43c4-848f-a3a56a50c75c"]}
+{
+  "sections": {
+    "12ab496d-b0e0-4f04-aab6-8144e9d4f8ca": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "62eb694b-3f48-4d2e-9fce-7d5b2e3c3e5e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Autumn",
+            "heading_size": "h1"
+          }
+        },
+        "baca78a2-2a21-4d56-ae34-d3a7c16c7fc0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Must-Haves",
+            "heading_size": "h1"
+          }
+        },
+        "9d0d8e28-17e7-4a00-8565-6a92610ae1c5": {
+          "type": "text",
+          "settings": {
+            "text": "A",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-1": {
+          "type": "text",
+          "settings": {
+            "text": "THESE PRODUCTS WILL ELEVATE YOUT AUTUMN WARDROVE",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "How it works",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "62eb694b-3f48-4d2e-9fce-7d5b2e3c3e5e",
+        "baca78a2-2a21-4d56-ae34-d3a7c16c7fc0",
+        "9d0d8e28-17e7-4a00-8565-6a92610ae1c5",
+        "template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-1",
+        "template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-2"
+      ],
+      "settings": {
+        "customClass": "multicolumn--style-1 banner__custom--page-width banner__custom--titles banner__custom--subtitles",
+        "image": "shopify:\/\/shop_images\/bringing-some-sparkle-on-a-walk.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "02114c89-ce86-4377-9173-a00ffef01fd4": {
+      "type": "brands-icons",
+      "blocks": {
+        "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VOGUE_LOGO.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes-logo-gray.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-York-Times-logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f09185d1-bc1c-4fd0-bfb5-209c7a3e73cb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Harpers_Bazaar_logo_logotype_dde4ef9c-85bb-4727-9264-8d56528b6092.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-0",
+        "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-1",
+        "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-2",
+        "f09185d1-bc1c-4fd0-bfb5-209c7a3e73cb"
+      ],
+      "settings": {
+        "customClass": "multicolumn--style-0",
+        "title": "Featured In",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 76
+      }
+    },
+    "e5926246-6c1a-4b01-a2ee-d649b412fb10": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VOGUE_LOGO_e5634fd2-66d5-4f06-972c-c0e32587e47b.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes-logo-gray.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "52ed5ede-ebf1-47ca-9e81-89a28ef68810": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-The_New_York_Times_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Harpers_Bazaar_logo_logotype_dde4ef9c-85bb-4727-9264-8d56528b6092.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-0",
+        "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-1",
+        "52ed5ede-ebf1-47ca-9e81-89a28ef68810",
+        "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-2"
+      ],
+      "settings": {
+        "customClass": "multicolumn--style-0",
+        "title": "Featured In",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 76
+      }
+    },
+    "6fa72e62-4172-4ab7-b40d-e2af5880c323": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a member",
+            "heading_size": "h0"
+          }
+        },
+        "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Join<\/strong> our private members club <\/p><p>that provides you to sublet the word's<\/p><p> most sourced luxury bags.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "8da004fd-3b0c-42b0-bcce-6e5ebfaeb9e3": {
+          "type": "caption",
+          "settings": {
+            "caption": "The Wish Without The Waitlist.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View membership tiers",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-0",
+        "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-1",
+        "8da004fd-3b0c-42b0-bcce-6e5ebfaeb9e3",
+        "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2"
+      ],
+      "settings": {
+        "overlaplogo": "shopify:\/\/shop_images\/lour-white-logo-ts.png",
+        "image": "shopify:\/\/shop_images\/eeebc93bfc4351bec4feb8169e6b97c0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "customClass": "custom__banner--with-text custom__banner--theme-1",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "d7c0d13e-836d-469e-9a45-ed69f32d3416": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17167329427759__d7c0d13e-836d-469e-9a45-ed69f32d3416-1672172536ad0c745d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Follow Us On Instagram<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167329427759__d7c0d13e-836d-469e-9a45-ed69f32d3416-1672172536ad0c745d-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1672172443786eafc5": {
+      "type": "apps",
+      "blocks": {
+        "49b2b844-c1d0-4ac4-a702-634fce10ae45": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "49b2b844-c1d0-4ac4-a702-634fce10ae45"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "26b04f6b-20ce-43c4-848f-a3a56a50c75c": {
+      "type": "custom-image-banner",
+      "settings": {
+        "customClass": "banner__custom--page-width",
+        "image": "shopify:\/\/shop_images\/Pink_bags.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "12ab496d-b0e0-4f04-aab6-8144e9d4f8ca",
+    "02114c89-ce86-4377-9173-a00ffef01fd4",
+    "e5926246-6c1a-4b01-a2ee-d649b412fb10",
+    "6fa72e62-4172-4ab7-b40d-e2af5880c323",
+    "d7c0d13e-836d-469e-9a45-ed69f32d3416",
+    "1672172443786eafc5",
+    "26b04f6b-20ce-43c4-848f-a3a56a50c75c"
+  ]
+}
