@@ -116,7 +116,7 @@
         "enable_sticky_info": true,
         "media_position": "left",
         "gallery_layout": "thumbnail_slider",
-        "media_size": "medium",
+        "media_size": "small",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -208,7 +208,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "YOU MAY ALSO LIKE",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
