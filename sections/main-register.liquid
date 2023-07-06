@@ -6,6 +6,137 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .grid--2-columns > .grid__item {
+    background-color: #fafafa;
+    padding: 20px 40px;
+  }
+  .grid--2-columns .grid__item h2 {
+    text-transform: uppercase;
+    color: #2f2b2b;
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  .grid.grid--2-columns {
+    gap: 60px;
+    margin-top: 60px;
+  }
+  .grid.grid--3-columns {
+    margin-top: 35px;
+  }
+  .grid--3-columns .grid__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .grid--3-columns .grid__item > span {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #2f2b2b;
+  }
+  .grid__item-body {
+    text-align: left;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: #2f2b2b;
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  p {
+    text-transform: uppercase;
+    color: #2f2b2b;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .customer form {
+    margin-top: 0;
+  }
+  .cf-step-tabs .cf-step-counter {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .cf-step-tabs .cf-step-title {
+    text-transform: uppercase;
+    color: #2f2b2b;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  .grid__item form label {
+    font-size: 13px;
+    color: #2f2b2b;
+  }
+  [data-theme-name=Dawn] .cf-field input:not([type=checkbox]):not([type=radio]) {
+    height: 25px;
+    font-size: 13px;
+    border: 1px solid #2f2b2b;
+    box-shadow: none;
+    padding: 15px;
+    color: #2f2b2b;
+  }
+  [data-theme-name=Dawn] .cf-field .cf-select-wrap>select {
+    height: 32px;
+    font-size: 13px;
+    border: 1px solid #2f2b2b;
+    box-shadow: none;
+    padding: 4px;
+    color: #2f2b2b;
+    background: #fff;
+  }
+  [data-cf-field-type=phone] .cf-phone-field .cf-country-picker select {
+    height: 32px;
+    font-size: 13px;
+    border: 1px solid #2f2b2b;
+    box-shadow: none;
+    padding: 4px;
+    color: #2f2b2b;
+    background: #fff;
+  }
+  .cf-field-errors,
+  .cf-error-message-header {
+    font-size: 13px;
+  }
+  .cf-field-errors > li > div,
+  .cf-field-description {
+    font-size: 13px;
+  }
+  .cf-form-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .cf-form-actions > button {
+    background-color: #fff;
+    color: #2f2b2b;
+    border: 1px solid #2f2b2b;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 40px;
+    min-height: 0;
+  }
+  .grid__item-body-monthly-plan {
+    margin-top: 30px;
+  }
+  .grid__item-body-monthly-plan > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .grid__item-body-monthly-plan > div > span {
+    text-transform: uppercase;
+    color: #2f2b2b;
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+  .grid__item-body-monthly-plan > p {
+    text-transform: uppercase;
+    color: #2f2b2b;
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -143,28 +274,40 @@
       </button>
     {%- endform -%}</div>
   <div class="grid__item">
-    <h2>Membership Summary</h2>
+    <h2>MEMBERSHIP SUMMARY</h2>
     <div class="grid grid--3-columns">
-      <div class="grid__item">
+      <div class="grid__item grid__item--silver">
         <span>Silver</span>
         <span>$250</span>
       </div>
-      <div class="grid__item">
+      <div class="grid__item grid__item--gold">
         <span>Gold</span>
         <span>$500</span>
       </div>
-      <div class="grid__item">
+      <div class="grid__item grid__item--platinum">
         <span>Platinum</span>
         <span>$950</span>
       </div>
     </div>
-    <div><h3>INSURANCE ADD ONS</h3>
-    <p>
-      STANDARD WEAR & TEAR INCLUDED<BR>
-      ADD PREMIUM COVERS ACCIDENTAL DAMAGE
-    </p></div>
-  </div></div>
-            </div>
+    <div class="grid__item-body">
+      <h3>INSURANCE ADD ONS</h3>
+      <p>
+        STANDARD WEAR & TEAR INCLUDED<BR>
+        ADD PREMIUM COVERS ACCIDENTAL DAMAGE
+      </p>
+      <div class="grid__item-body-monthly-plan">
+        <div>
+          <span class="one">PAY MONTHLY</span>
+          <span class="three">PREPAY 3 MONTHS</span>
+          <span class="six">PREPAY 6 MONTHS</span>
+          <span class="twelve">PREPAY 12 MONTHS</span>
+        </div>
+        <p>3 MONTH MINIMUM MEMBERSHIP REQUIRED</p>
+      </div>
+    </div>
+  </div>
+  </div>        
+</div>
               
 </div>
 
