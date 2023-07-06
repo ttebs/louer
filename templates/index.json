@@ -263,8 +263,8 @@
         "template--17167329427759__d7c0d13e-836d-469e-9a45-ed69f32d3416-1672172536ad0c745d-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Follow Us On Instagram<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>FOLLOW US ON INSTAGRAM<\/p>",
+            "heading_size": "h2"
           }
         }
       },
@@ -286,7 +286,7 @@
         "49b2b844-c1d0-4ac4-a702-634fce10ae45": {
           "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
+            "heading_size": 12,
             "feed_width": 100,
             "html_area": ""
           }
