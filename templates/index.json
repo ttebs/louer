@@ -305,7 +305,7 @@
         "customClass": "banner__custom--page-width",
         "image": "shopify:\/\/shop_images\/Pink_bags.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
