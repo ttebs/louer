@@ -209,14 +209,14 @@
           "type": "heading",
           "settings": {
             "heading": "Become a member",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-1": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Join<\/strong> our private members club <\/p><p>that provides you to sublet the word's<\/p><p> most sourced luxury bags.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "8da004fd-3b0c-42b0-bcce-6e5ebfaeb9e3": {
@@ -230,7 +230,7 @@
         "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2": {
           "type": "button",
           "settings": {
-            "button_label": "View membership tiers",
+            "button_label": "VIEW MEMBERSHIP TIERS",
             "button_link": "shopify:\/\/collections\/all"
           }
         }
