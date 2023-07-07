@@ -1000,26 +1000,13 @@ function isElementHidden(element) {
   return computedStyle.display === 'none';
 }
 
-// document.addEventListener('DOMContentLoaded', function() {
-//   waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
-//     const myElement = document.querySelector('.product-form__submit');
-//     if (isElementHidden(myElement)) {
-//       document.querySelector('.shopify-payment-button').style.width = '100%';
-//       document.querySelector('.shopify-payment-button button').style.width = '100%';
-//     } 
-//     setTimeout(() => {
-//       element.click();
-//     }, "2000");
-//   });
-// });
-
-
 window.onload = function(event) {
   const input_membership_val = localStorage.getItem('form-membership-value');
   const customer_register = document.querySelector('.customer.register');
 
+  document.querySelector(`input[value="${input_membership_val}"]`)?.click();
+
   if(customer_register) {
-    document.querySelector(`input[value="${input_membership_val}"]`)?.click();
     
     const membership_plan_silver = document.querySelectorAll('.grid__item--silver > span');
     const membership_plan_gold = document.querySelectorAll('.grid__item--gold > span');
@@ -1068,29 +1055,6 @@ window.onload = function(event) {
         element.click();
       }, "2000");
     });
-
-    // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
-    // const but_it_now_button = document.querySelector('button[data-testid="Checkout-button"]')
-    // console.log("but_it_now_button", but_it_now_button)
-    // checkCartPopupExist(but_it_now_button)
-    // setTimeout(() => {
-    //   but_it_now_button.click()
-    // }, "2000");
-    // checkCartPopupExist(but_it_now_button)
-    
-    // console.log("but_it_now_button", but_it_now_button)
-    // setTimeout(() => {
-    //   but_it_now_button.click()
-    // }, "2000");
-
-    // Find the "Add to Cart" button
-    // const but_it_now_button = document.querySelector('.shopify-payment-button__button')
-
-    // // Check if the button exists
-    // if (but_it_now_button) {
-    //   // Simulate a click event on the button
-    //   simulateClick(but_it_now_button);
-    // }
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
@@ -1163,23 +1127,8 @@ window.onload = function(event) {
 
   // click the apply now button
   const membership_plans_button = document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > a');
-  // document.querySelectorAll('.multicolumn--style-3 .multicolumn-card__info > button').forEach((insidebox) => {
   membership_plans_button.forEach((insidebox) => {
     insidebox.addEventListener('click', function () {
-      // checkCartPopupExist();
-      // const button_selected = insidebox.dataset.btn
-      // const membership = document.querySelector('.collection__title > h2').innerHTML;
-
-      // if(membership == "Membership") {
-      //   const product_item = document.querySelectorAll('.collection ul.product-grid > li');
-      //   product_item.forEach((item, index) => {
-      //     if(button_selected == index) {
-      //       item.querySelector('.quick-add__submit').click();
-      //     }
-      //   })
-      // }
-      // button.click()
-
       const membership_plan_name = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info > h3').textContent
       const membership_plan_val = insidebox.closest(".multicolumn-list__item").querySelector('.multicolumn-card__info-price-2').textContent;
       const _membership_plan_val = membership_plan_val.includes('.') ? membership_plan_val.slice(0, -3) : membership_plan_val;
@@ -1190,11 +1139,7 @@ window.onload = function(event) {
     });
   })
 
-  // set membership localstorage to an input
-  // const input_membership = document.querySelector('input[name=membership]');
-  // const input_membership_val = localStorage.getItem('form-membership-value')
-  // input_membership.value = input_membership_val
-  // radioBtn.checked = true;
+
 
 };
 
