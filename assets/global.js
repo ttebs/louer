@@ -1018,9 +1018,10 @@ window.onload = function(event) {
   const input_membership_val = localStorage.getItem('form-membership-value');
   const customer_register = document.querySelector('.customer.register');
 
+  // click membership plan radio button based on user selection
+  document.querySelector(`input[value="${input_membership_val}"]`)?.click();
+  
   if(customer_register) {
-    
-    
     const membership_plan_silver = document.querySelectorAll('.grid__item--silver > span');
     const membership_plan_gold = document.querySelectorAll('.grid__item--gold > span');
     const membership_plan_platinum = document.querySelectorAll('.grid__item--platinum > span');
@@ -1195,7 +1196,6 @@ window.onload = function(event) {
   // const input_membership_val = localStorage.getItem('form-membership-value')
   // input_membership.value = input_membership_val
   // radioBtn.checked = true;
-document.querySelector(`input[value="${input_membership_val}"]`)?.click();
 };
 
 
