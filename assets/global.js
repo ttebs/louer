@@ -1019,7 +1019,7 @@ window.onload = function(event) {
   const customer_register = document.querySelector('.customer.register');
 
   if(customer_register) {
-    document.querySelector(`input[value="${input_membership_val}"]`)?.click();
+    
     
     const membership_plan_silver = document.querySelectorAll('.grid__item--silver > span');
     const membership_plan_gold = document.querySelectorAll('.grid__item--gold > span');
@@ -1195,7 +1195,7 @@ window.onload = function(event) {
   // const input_membership_val = localStorage.getItem('form-membership-value')
   // input_membership.value = input_membership_val
   // radioBtn.checked = true;
-
+document.querySelector(`input[value="${input_membership_val}"]`)?.click();
 };
 
 
