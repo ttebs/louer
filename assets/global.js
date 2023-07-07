@@ -1016,37 +1016,43 @@ function isElementHidden(element) {
 
 window.onload = function(event) {
   const input_membership_val = localStorage.getItem('form-membership-value');
+  const customer_register = document.querySelector('.customer.register');
 
-  const membership_plan_silver = document.querySelectorAll('.grid__item--silver > span');
-  const membership_plan_gold = document.querySelectorAll('.grid__item--gold > span');
-  const membership_plan_platinum = document.querySelectorAll('.grid__item--platinum > span');
-  if(input_membership_val.includes("SILVER")) {
-    membership_plan_silver.forEach(item => {
-      item.style.fontWeight = "bold"
-    });
-  } else if (input_membership_val.includes("GOLD")) {
-    membership_plan_gold.forEach(item => {
-      item.style.fontWeight = "bold"
-    });
-  } else if (input_membership_val.includes("PLATINUM")) {
-    membership_plan_platinum.forEach(item => {
-      item.style.fontWeight = "bold"
-    });
+  if(customer_register) {
+    document.querySelector(`input[value="${input_membership_val}"]`)?.click();
+    
+    const membership_plan_silver = document.querySelectorAll('.grid__item--silver > span');
+    const membership_plan_gold = document.querySelectorAll('.grid__item--gold > span');
+    const membership_plan_platinum = document.querySelectorAll('.grid__item--platinum > span');
+    if(input_membership_val.includes("SILVER")) {
+      membership_plan_silver.forEach(item => {
+        item.style.fontWeight = "bold"
+      });
+    } else if (input_membership_val.includes("GOLD")) {
+      membership_plan_gold.forEach(item => {
+        item.style.fontWeight = "bold"
+      });
+    } else if (input_membership_val.includes("PLATINUM")) {
+      membership_plan_platinum.forEach(item => {
+        item.style.fontWeight = "bold"
+      });
+    }
+  
+    const installment_one = document.querySelector('.grid__item-body-monthly-plan > div > .one')
+    const installment_three = document.querySelector('.grid__item-body-monthly-plan > div > .three')
+    const installment_six = document.querySelector('.grid__item-body-monthly-plan > div > .six')
+    const installment_twelve = document.querySelector('.grid__item-body-monthly-plan > div > .twelve')
+    if(input_membership_val.includes("month")) {
+      installment_one.style.fontWeight = "bold";
+    } else if (input_membership_val.includes("3mos.")) {
+      installment_three.style.fontWeight = "bold";
+    } else if (input_membership_val.includes("6mos.")) {
+      installment_six.style.fontWeight = "bold";
+    } else if (input_membership_val.includes("12mos.")) {
+      installment_twelve.style.fontWeight = "bold";
+    }
   }
 
-  const installment_one = document.querySelector('.grid__item-body-monthly-plan > div > .one')
-  const installment_three = document.querySelector('.grid__item-body-monthly-plan > div > .three')
-  const installment_six = document.querySelector('.grid__item-body-monthly-plan > div > .six')
-  const installment_twelve = document.querySelector('.grid__item-body-monthly-plan > div > .twelve')
-  if(input_membership_val.includes("month")) {
-    installment_one.style.fontWeight = "bold";
-  } else if (input_membership_val.includes("3mos.")) {
-    installment_three.style.fontWeight = "bold";
-  } else if (input_membership_val.includes("6mos.")) {
-    installment_six.style.fontWeight = "bold";
-  } else if (input_membership_val.includes("12mos.")) {
-    installment_twelve.style.fontWeight = "bold";
-  }
 
   if(product_type) {
     // trigger click on buy now button after form submission
@@ -1188,8 +1194,8 @@ window.onload = function(event) {
   // const input_membership = document.querySelector('input[name=membership]');
   // const input_membership_val = localStorage.getItem('form-membership-value')
   // input_membership.value = input_membership_val
-  document.querySelector(`input[value="${input_membership_val}"]`)?.click();
   // radioBtn.checked = true;
+
 };
 
 
