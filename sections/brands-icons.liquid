@@ -172,16 +172,29 @@ unToggle();
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-const mq = window.matchMedia( "(max-width: 991px)" );
+const mq = window.matchMedia( "(min-width: 768px) and (max-width: 991px)" );
+const mq_mobile = window.matchMedia( "(max-width: 767px)" );
 
 if (mq.matches) {
- $('.start__slide').slick({
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});
+  const obj = {
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  } 
+  $('.start__slide').slick(obj);
+} else if (mq_mobile.matches) {
+  const obj = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  }
+  $('.start__slide').slick(obj);
+  document.querySelector('.slick-prev').style.left = "6%";
+  document.querySelector('.slick-next').style.right = "6%";
 }
+
 
 </script>
 
