@@ -440,7 +440,6 @@
 
 :is(.account, .order) p {
   margin: 0 0 2rem;
-  line-height: 0px;
   font-size: 13px;
 }
 
@@ -821,4 +820,26 @@ h2.my-account-details {
 }
 .my-account-details-list > div > img {
   border: 1px solid #a5a5a5;
+}
+
+@media only screen and (max-width: 767px) {
+  .my-account {
+    flex-direction: column;
+  }
+  .my-account__sidebar {
+    width: 100%;
+  }
+  .customer.account {
+    width: 100%;
+  }
+  .my-account-details-list {
+    flex-direction: column;
+  }
+  .my-account-details-list>div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  :is(.account,.order) h2 {
+    margin-top: 0;
+  }
 }
