@@ -44,7 +44,7 @@
         "desktop_image_width": "medium",
         "layout": "image_first",
         "customClass": "banner__custom--page-width",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
