@@ -38,6 +38,9 @@
         "template--20591104950575__44ae2dca-b94d-40da-8624-9bd0d307f764-text-1",
         "template--20591104950575__44ae2dca-b94d-40da-8624-9bd0d307f764-button-1"
       ],
+      "custom_css": [
+        "img.logo_overlap {max-width: none !important; height: initial !important; width: 24%; bottom: 0; top: unset !important; margin: 0 auto; right: 0;}"
+      ],
       "settings": {
         "overlaplogo": "shopify:\/\/shop_images\/IDScan.net-Logo-190x87.png",
         "image": "shopify:\/\/shop_images\/custom_resized_60643307-5e2d-4278-a217-567ba90b192e.jpg",
