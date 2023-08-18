@@ -60,7 +60,7 @@
     "e2758dbe-e78d-4360-9310-a308cb4f2f17": {
       "type": "custom-liquid",
       "custom_css": [
-        ".id-scan {display: flex; align-items: center; justify-content: space-between; padding: 0 10%;}",
+        ".id-scan {display: flex; align-items: center; gap: 100px;}",
         ".id-scan img {width: 600px;}",
         ".id-scan__form {display: flex; flex-direction: column; gap: 20px;}"
       ],
