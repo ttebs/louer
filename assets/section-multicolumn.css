@@ -115,6 +115,12 @@
   .multicolumn-list:not(.slider) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    flex-direction: column;
+  }
+
+  .grid--2-col-tablet-down .grid__item {
+    width: 100%;
+    max-width: none;
   }
 }
 
