@@ -125,6 +125,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
+    "checkout_button_color": "#121212",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
