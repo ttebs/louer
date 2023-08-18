@@ -31,9 +31,11 @@
     cursor: pointer;
     width: 20%;
     align-self: flex-end;
+    transition: none;
 }
 .id-scan__form button:hover {
   background-color: #000;
+  color: #fff;
 }
 .id-scan__form--error {
     display: none;
