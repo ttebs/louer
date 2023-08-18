@@ -64,10 +64,10 @@
         ".id-scan img {width: 600px;}",
         ".id-scan__form {display: flex; flex-direction: column; gap: 20px;}",
         ".id-scan__form input {height: 25px; font-size: 13px; border: 1px solid #2f2b2b; box-shadow: none; padding: 15px; color: #2f2b2b;}",
-        ".id-scan__form button {background-color: #fff; color: #2f2b2b; border: 1px solid #2f2b2b; font-size: 13px; text-transform: uppercase; height: 40px; min-height: 0;cursor: pointer;}"
+        ".id-scan__form button {background-color: #fff; color: #2f2b2b; border: 1px solid #2f2b2b; font-size: 13px; text-transform: uppercase; height: 40px; min-height: 0; cursor: pointer;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"id-scan page-width\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/custom_resized_60643307-5e2d-4278-a217-567ba90b192e.jpg?v=1692124496\" \/>\n<div class=\"id-scan__form\">\n<input name=\"first-name\" placeholder=\"Enter first name\" \/>\n<input name=\"last-name\" placeholder=\"Enter last name\" \/>\n\n<input name=\"phone\" placeholder=\"Enter phone\" \/>\n<button type=\"button\">Submit<\/button>\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"id-scan page-width\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/custom_resized_60643307-5e2d-4278-a217-567ba90b192e.jpg?v=1692124496\" \/>\n<div class=\"id-scan__form\">\n<h2><\/h2>\n<input name=\"first-name\" placeholder=\"Enter first name\" \/>\n<input name=\"last-name\" placeholder=\"Enter last name\" \/>\n\n<input name=\"phone\" placeholder=\"Enter phone\" \/>\n<button type=\"button\">Submit<\/button>\n<\/div>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
