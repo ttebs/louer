@@ -103,12 +103,7 @@
     "e2758dbe-e78d-4360-9310-a308cb4f2f17": {
       "type": "custom-liquid",
       "custom_css": [
-        ".id-scan {display: flex; align-items: center; gap: 100px;}",
-        ".id-scan img {width: 600px;}",
-        ".id-scan__form {display: flex; flex-direction: column; gap: 20px;}",
-        ".id-scan__form input {height: 25px; font-size: 13px; border: 1px solid #2f2b2b; box-shadow: none; padding: 15px; color: #2f2b2b;}",
-        ".id-scan__form button {background-color: #fff; color: #2f2b2b; border: 1px solid #2f2b2b; font-size: 13px; text-transform: uppercase; height: 40px; min-height: 0; cursor: pointer; width: 20%; align-self: flex-end;}",
-        ".id-scan__form--error {display: none;}"
+
       ],
       "settings": {
         "custom_liquid": "<div class=\"id-scan page-width\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/custom_resized_60643307-5e2d-4278-a217-567ba90b192e.jpg?v=1692124496\" \/>\n<div class=\"id-scan__form\">\n<img style=\"width: 150px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/IDScan.net-Logo-190x87.png?v=1692293145\" \/>\n<p style=\"margin: 0;\">This verification process is designed to confirm your identify and protect you from identity theft. Please fill up the form to start.\n<\/p>\n<input name=\"first-name\" placeholder=\"Enter first name\" \/>\n<input name=\"last-name\" placeholder=\"Enter last name\" \/>\n\n<input name=\"phone\" placeholder=\"Enter phone\" \/>\n<button type=\"button\">Submit<\/button>\n<p class=\"id-scan__form--error\" style=\"color: red\">* The phone number you entered is not valid.<\/p>\n<\/div>\n<\/div>",
