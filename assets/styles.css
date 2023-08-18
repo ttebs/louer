@@ -33,7 +33,7 @@
     align-self: flex-end;
 }
 .id-scan__form button:hover {
-  background: #000;
+  background-color: #000;
 }
 .id-scan__form--error {
     display: none;
