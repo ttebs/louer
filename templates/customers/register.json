@@ -1,1 +1,45 @@
-{"sections":{"15a39a15-270f-456d-938d-32da491d14ae":{"type":"rich-text-custom","blocks":{"template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-0":{"type":"heading","settings":{"heading":"<p>CREATE AN ACCOUNT<\/p>","heading_size":"h1"}},"template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-1":{"type":"text","settings":{"text":"<p>Create an account and apply to become a member.<\/p>"}}},"block_order":["template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-0","template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-1"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":40,"padding_bottom":0}},"main":{"type":"main-register","settings":{"padding_top":8,"padding_bottom":36}}},"order":["15a39a15-270f-456d-938d-32da491d14ae","main"]}
+{
+  "sections": {
+    "15a39a15-270f-456d-938d-32da491d14ae": {
+      "type": "rich-text-custom",
+      "blocks": {
+        "template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1><strong>STEP 3 - Create an account<\/strong><\/h1>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create an account and apply to become a member.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-0",
+        "template--17167328706863__15a39a15-270f-456d-938d-32da491d14ae-1673889451b2d082d3-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-register",
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "15a39a15-270f-456d-938d-32da491d14ae",
+    "main"
+  ]
+}
