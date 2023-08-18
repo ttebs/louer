@@ -38,6 +38,7 @@
         "template--20591104950575__44ae2dca-b94d-40da-8624-9bd0d307f764-text-1",
         "template--20591104950575__44ae2dca-b94d-40da-8624-9bd0d307f764-button-1"
       ],
+      "disabled": true,
       "custom_css": [
         "img.logo_overlap {max-width: none !important; height: initial !important; width: 24%; bottom: 0; top: unset !important; margin: 0 auto; right: 0;}"
       ],
@@ -67,7 +68,7 @@
         ".id-scan__form button {background-color: #fff; color: #2f2b2b; border: 1px solid #2f2b2b; font-size: 13px; text-transform: uppercase; height: 40px; min-height: 0; cursor: pointer; width: 20%; align-self: flex-end;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"id-scan page-width\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/custom_resized_60643307-5e2d-4278-a217-567ba90b192e.jpg?v=1692124496\" \/>\n<div class=\"id-scan__form\">\n<img style=\"width: 150px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/IDScan.net-Logo-190x87.png?v=1692293145\" \/>\n<h2 style=\"margin: 0;\">Identity Verification<\/h2>\n<p style=\"margin: 0;\">This verification process is designed to confirm your identify and protect you from identity theft.\n<\/p>\n<input name=\"first-name\" placeholder=\"Enter first name\" \/>\n<input name=\"last-name\" placeholder=\"Enter last name\" \/>\n\n<input name=\"phone\" placeholder=\"Enter phone\" \/>\n<button type=\"button\">Submit<\/button>\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"id-scan page-width\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/custom_resized_60643307-5e2d-4278-a217-567ba90b192e.jpg?v=1692124496\" \/>\n<div class=\"id-scan__form\">\n<img style=\"width: 150px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/IDScan.net-Logo-190x87.png?v=1692293145\" \/>\n<h2 style=\"margin: 0;\">Identity Verification<\/h2>\n<p style=\"margin: 0;\">This verification process is designed to confirm your identify and protect you from identity theft. Please fill up the form to start.\n<\/p>\n<input name=\"first-name\" placeholder=\"Enter first name\" \/>\n<input name=\"last-name\" placeholder=\"Enter last name\" \/>\n\n<input name=\"phone\" placeholder=\"Enter phone\" \/>\n<button type=\"button\">Submit<\/button>\n<\/div>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
