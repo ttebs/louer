@@ -1138,6 +1138,44 @@ window.onload = function(event) {
       localStorage.setItem("form-membership-value", `${membership_plan_name} - ${_membership_plan_val} ${membership_text}`);
     });
   })
-};
 
+  async function submitVerification() {
+    const _token = "sk_ccbe51b2-e265-4b38-bcd1-73c87345ab6d"
+    const _data = {
+      "firstName": "rid2",
+      "lastName": "dha2",
+      "phone": "+19548586680",
+      "callbackUrl": "https://louerlesac.com/pages/become-a-member",
+      "sendSms": true
+    }
 
+    try {
+      const response = await fetch('https://api-dvsonline.idscan.net/api/ValidationRequests', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${_token}`
+        },
+        body: JSON.stringify(_data)
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      
+      const data = await response.json();
+      console.log("data", data);
+      return data;
+    } catch (error) {
+      console.error('Error:', error);
+    }
+    return false;
+  }  
+
+  // ID SCAN
+  document.querySelector('.image-with-text__text-item .button--primary').addEventListener('click', async (event) => {
+    event.preventDefault();
+    const data = await submitVerification();
+    if(data) location.replace(data.shortValidationLink)
+  })
+
+}
