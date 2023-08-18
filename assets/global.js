@@ -1139,16 +1139,8 @@ window.onload = function(event) {
     });
   })
 
-  async function submitVerification() {
+  async function submitVerification(payload) {
     const _token = "sk_ccbe51b2-e265-4b38-bcd1-73c87345ab6d"
-    const _data = {
-      "firstName": "rid2",
-      "lastName": "dha2",
-      "phone": "+19548586680",
-      "callbackUrl": "https://louerlesac.com/pages/become-a-member",
-      "sendSms": true
-    }
-
     try {
       const response = await fetch('https://api-dvsonline.idscan.net/api/ValidationRequests', {
         method: 'POST',
@@ -1156,14 +1148,9 @@ window.onload = function(event) {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${_token}`
         },
-        body: JSON.stringify(_data)
+        body: JSON.stringify(payload)
       });
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      
       const data = await response.json();
-      console.log("data", data);
       return data;
     } catch (error) {
       console.error('Error:', error);
@@ -1172,10 +1159,43 @@ window.onload = function(event) {
   }  
 
   // ID SCAN
-  document.querySelector('.image-with-text__text-item .button--primary').addEventListener('click', async (event) => {
-    event.preventDefault();
-    const data = await submitVerification();
-    if(data) location.replace(data.shortValidationLink)
-  })
+  if(document.querySelector('.id-scan__form button')) {
+    document.querySelector('.id-scan__form button').addEventListener('click', async (event) => {
+      event.preventDefault();
+      const first_name = document.querySelector('.id-scan__form input[name="first-name"]').value
+      const last_name = document.querySelector('.id-scan__form input[name="last-name"]').value
+      const phone = document.querySelector('.id-scan__form input[name="phone"]').value
+
+      if(first_name === "") document.querySelector('.id-scan__form input[name="first-name"]').style.border = "2px solid red"
+      else document.querySelector('.id-scan__form input[name="first-name"]').style.border = "1px solid #2f2b2b"
+
+      if (last_name === "") document.querySelector('.id-scan__form input[name="last-name"]').style.border = "2px solid red"
+      else document.querySelector('.id-scan__form input[name="last-name"]').style.border = "1px solid #2f2b2b"
+
+      if (phone === "") document.querySelector('.id-scan__form input[name="phone"]').style.border = "2px solid red"
+      else document.querySelector('.id-scan__form input[name="phone"]').style.border = "1px solid #2f2b2b"
+
+      if(first_name === "" || last_name === "" || phone === "") return false;
+
+      const payload = {
+        "firstName": first_name,
+        "lastName": last_name,
+        "phone": phone,
+        "callbackUrl": "https://louerlesac.com/pages/become-a-member",
+        "sendSms": true
+      }
+
+      event.currentTarget.setAttribute('disabled', "")
+      document.querySelector('.id-scan__form--error').style.display = "none";
+  
+      const data = await submitVerification(payload);
+      if(data.code) {
+        document.querySelector('.id-scan__form--error').style.display = "block";
+      } else {
+        if(data.shortValidationLink) location.replace(data.shortValidationLink)
+      }
+      document.querySelector('.id-scan__form button').removeAttribute('disabled')
+    })
+  }
 
 }
