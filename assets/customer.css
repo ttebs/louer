@@ -843,3 +843,32 @@ h2.my-account-details {
     margin-top: 0;
   }
 }
+
+/* login layout update */
+.customer.login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px !important;
+  border-top: 1.5px solid #d7d7d7;
+  margin-top: 45px !important;
+  gap: 80px;
+}
+.customer.login > div {
+  margin: 0;
+  border: none;
+  width: 50%;
+}
+.customer.login > div:first-child #rc_login {
+  display: flex;
+  margin-top: 0;
+}
+.customer.login > div:first-child #rc_login p {
+  margin: 0;
+}
+.customer.login a {
+  text-transform: lowercase;
+}
+.customer.login > div .link.link__create-account {
+  margin-top: 17px;
+}
