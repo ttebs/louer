@@ -1044,6 +1044,8 @@ window.onload = function(event) {
   if(product_type) {
     // trigger click on buy now button after form submission
     document.querySelector('form.installment').style.visibility = 'hidden';
+    document.querySelector('.price-item').style.display = 'none';
+
 
     waitForVisibleElement('button[data-testid="Checkout-button"]', function(element) {
       const myElement = document.querySelector('.product-form__submit');
