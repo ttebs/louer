@@ -590,7 +590,7 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
-              {% if customer %}
+              {% if customer or template == 'product.template-membership-plan' %}
                 <div {{ block.shopify_attributes }}>
                   <product-form class="product-form">
                     <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -680,7 +680,7 @@
                 </div>
                 <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
               {% else %}
-                <div class="product-btn-not-member">
+                <div class="product-btn-not-member" >
                   <a href="{{ routes.account_login_url }}">Login</a>
                   <span> or </span>
                   <a href="/pages/new-membership-id-scan">Become a member</a>
