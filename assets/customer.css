@@ -872,3 +872,17 @@ h2.my-account-details {
 .customer.login > div .link.link__create-account {
   margin-top: 17px;
 }
+.account-manage-subscription a {
+  background-color: #fff;
+  color: #2f2b2b;
+  border: 1px solid #2f2b2b;
+  font-size: 13px;
+  cursor: pointer;
+  transition: none;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+.account-manage-subscription a:hover {
+  color: #fff;
+  background-color: #000;
+}
