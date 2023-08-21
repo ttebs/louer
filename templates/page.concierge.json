@@ -123,6 +123,9 @@
     },
     "276a88b8-6af3-4934-8252-854e2899ddc7": {
       "type": "contact-form",
+      "custom_css": [
+        ".contact {padding: 0 5rem;}"
+      ],
       "settings": {
         "heading": "Contact form",
         "heading_size": "h1",
