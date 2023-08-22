@@ -135,7 +135,6 @@
     },
     "e5926246-6c1a-4b01-a2ee-d649b412fb10": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-0": {
           "type": "column",
@@ -184,6 +183,7 @@
         "52ed5ede-ebf1-47ca-9e81-89a28ef68810",
         "template--17167329427759__e5926246-6c1a-4b01-a2ee-d649b412fb10-167180364473cc992d-2"
       ],
+      "disabled": true,
       "settings": {
         "customClass": "multicolumn--style-0",
         "title": "Featured In",
@@ -231,7 +231,7 @@
           "type": "button",
           "settings": {
             "button_label": "VIEW MEMBERSHIP TIERS",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify:\/\/pages\/become-a-member-information"
           }
         }
       },
