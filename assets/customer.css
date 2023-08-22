@@ -859,9 +859,25 @@ h2.my-account-details {
   border: none;
   width: 50%;
 }
-.customer.login > div:first-child #rc_login {
-  display: flex;
-  margin-top: 0;
+.customer.login > div:first-child #rc_login a {
+    text-transform: uppercase;
+    width: 100%;
+    min-height: calc(3.25rem + var(--buttons-border-width) * 2);
+    background: #737373;
+    border-radius: 0.78rem;
+    margin-bottom: 0.128rem;
+    box-shadow: none!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffff;
+}
+.customer.login > div:first-child #rc_login a:hover {
+    color: #737373;
+    background: #fff;
+    border: 1px solid #737373;
 }
 .customer.login > div:first-child #rc_login p {
   margin: 0;
