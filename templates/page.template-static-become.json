@@ -181,7 +181,7 @@
         "828b86f7-9fab-45de-ab1c-4366d6c68a01"
       ],
       "custom_css": [
-        "h3::before {display: none;}"
+
       ],
       "settings": {
         "customClass": "multicolumn--style-4",
