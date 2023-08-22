@@ -178,7 +178,7 @@
         "828b86f7-9fab-45de-ab1c-4366d6c68a01"
       ],
       "custom_css": [
-        ".multicolumn-card__info .link {display: none;}"
+        ".multicolumn-card__info .link {display: none !important;}"
       ],
       "settings": {
         "customClass": "multicolumn--style-4",
