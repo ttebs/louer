@@ -1060,7 +1060,8 @@ window.onload = function(event) {
 
     const plan = document.querySelector('.product__info-wrapper.grid__item');
     const plan_val = plan.dataset.plan ? plan.dataset.plan : localStorage.getItem("form-membership-value")
-    const plan_choices = ['Delivery every 90 Days', 'Delivery every 180 Days', 'Delivery every 365 Days']
+    // const plan_choices = ['Delivery every 90 Days', 'Delivery every 180 Days', 'Delivery every 365 Days']
+    const plan_choices = ['90 day subscription', '180 day subscription', '360 day subscription']
     let plan_months = ""
   
     if(plan_val.includes('3mos')) {
