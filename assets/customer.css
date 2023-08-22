@@ -883,7 +883,7 @@ h2.my-account-details {
   margin: 0;
 }
 .customer.login a {
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 .link.link__create-account {
   text-transform: uppercase !important;
