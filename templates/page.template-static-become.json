@@ -17,17 +17,10 @@
             "heading": "<h1><strong>Membership Plans<\/strong><\/h1>",
             "heading_size": "h2"
           }
-        },
-        "template--17421156679983__002818ab-a479-4d65-a555-a81bb5faac4a-1673367274edff0539-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Monthly acces to luxury handbags.<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--17421156679983__002818ab-a479-4d65-a555-a81bb5faac4a-1673367274edff0539-0",
-        "template--17421156679983__002818ab-a479-4d65-a555-a81bb5faac4a-1673367274edff0539-1"
+        "template--17421156679983__002818ab-a479-4d65-a555-a81bb5faac4a-1673367274edff0539-0"
       ],
       "settings": {
         "desktop_content_position": "center",
