@@ -54,7 +54,7 @@
         "customClass": "multicolumn--style-1 banner__custom--page-width banner__custom--titles banner__custom--subtitles",
         "image": "shopify:\/\/shop_images\/bringing-some-sparkle-on-a-walk.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-right",
         "show_text_box": false,
@@ -115,6 +115,7 @@
         "template--17167329427759__02114c89-ce86-4377-9173-a00ffef01fd4-1673558890e8ccfcdd-2",
         "f09185d1-bc1c-4fd0-bfb5-209c7a3e73cb"
       ],
+      "disabled": true,
       "settings": {
         "customClass": "multicolumn--style-0",
         "title": "Featured In",
