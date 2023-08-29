@@ -424,5 +424,12 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "filter_title": "Filters"
+      }
+    }
   }
 }
