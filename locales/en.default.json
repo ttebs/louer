@@ -428,7 +428,7 @@
   "customer_accounts": {
     "orders": {
       "order_list": {
-        "filter_title": "Filters"
+        "filter_title": "Filter"
       }
     }
   }
