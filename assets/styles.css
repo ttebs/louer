@@ -47,7 +47,7 @@ span {
     display: none;
 }
 .custom__banner--theme-1 .button--primary::after {
-  background-color: #f7f5f3;
+  background-color: #f7f5f3 !important;
 }
 
 @media screen and (max-width: 1024px) {
