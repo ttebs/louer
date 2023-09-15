@@ -33,11 +33,11 @@
 }
 
 .header__menu-item::after {
-    /* content: "|";
+    content: "|";
     position: static;
     display: flex;
     width: 3rem;
-    justify-content: end; */
+    justify-content: end;
 }
 
 .list-menu li:last-child .header__menu-item::after {
