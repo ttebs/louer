@@ -61,3 +61,6 @@
 .header__inline-menu .list-menu--inline {
   gap: 50px;
 } 
+.header:not(.header--middle-left,.header--middle-center) .header__inline-menu {
+  margin: 0;
+}
