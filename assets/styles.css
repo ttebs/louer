@@ -46,6 +46,9 @@ span {
 .id-scan__form--error {
     display: none;
 }
+.custom__banner--theme-1 .button--primary::after {
+  background-color: #f7f5f3;
+}
 
 @media screen and (max-width: 1024px) {
     .id-scan img {
