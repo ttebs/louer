@@ -260,6 +260,9 @@
         "38513b75-119d-4851-91ed-3839ef5d02dc",
         "451990bb-dca9-44b8-bab2-760b38b85acf"
       ],
+      "custom_css": [
+        "h2 {font-size: 11px; color: #000;}"
+      ],
       "settings": {
         "customClass": "multicolumn--style-5",
         "title": "THE BENEFITS OF OUR MEMBERSHIP",
