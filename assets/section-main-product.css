@@ -1273,6 +1273,10 @@ a.product__text {
 .product--thumbnail_slider .product__media-gallery > slider-component:last-child {
   width: 25%;
 }
+.thumbnail-slider .thumbnail-list.slider--tablet-up {
+  display: flex;
+  flex-direction: column;
+}
 .product--small .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
   width: 100%;
 }
