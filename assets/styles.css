@@ -26,11 +26,6 @@ h1 strong {
   font-weight: normal;
 }
 
-h2 {
-  font-size: 11px !important;
-  color: #000;
-}
-
 .id-scan {
     display: flex;
     align-items: center;
