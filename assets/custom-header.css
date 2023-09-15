@@ -57,3 +57,6 @@
   color: #000;
   font-weight: 500;
 }
+.header__inline-menu.list-menu--inline {
+  gap: 50px;
+} 
