@@ -1,4 +1,10 @@
 /* ID SCAN VERIFICATION */
+p,
+a,
+span {
+  font-family: 'Figtree', sans-serif !important;  
+}
+
 .id-scan {
     display: flex;
     align-items: center;
