@@ -1263,3 +1263,16 @@ a.product__text {
   font-size: 13px;
   margin: 0 10px;
 }
+.product__media-gallery {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.product__media-gallery slider-component:first-child {
+  width: 75%;
+}
+.product__media-gallery slider-component:last-child {
+  width: 25%;
+}
+.product__media-gallery slider-component:last-child .thumbnail-list__item {
+  width: 100%;
+}
