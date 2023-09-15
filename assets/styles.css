@@ -2,7 +2,9 @@
 p,
 a,
 span {
-  font-family: 'Figtree', sans-serif !important;  
+  font-family: 'Figtree', sans-serif !important;
+  font-size: 13px;
+  color: #000;
 }
 
 .id-scan {
