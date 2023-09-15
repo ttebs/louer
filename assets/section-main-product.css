@@ -1263,7 +1263,7 @@ a.product__text {
   font-size: 13px;
   margin: 0 10px;
 }
-.product__media-gallery {
+.product--thumbnail_slider .product__media-gallery {
   display: flex;
   flex-direction: row-reverse;
 }
