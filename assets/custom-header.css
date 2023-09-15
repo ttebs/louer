@@ -36,7 +36,7 @@
     content: "|";
     position: static;
     display: flex;
-    width: 3rem;
+    width: 2rem;
     justify-content: end;
 }
 
@@ -59,7 +59,7 @@
   padding: 0;
 }
 .header__inline-menu .list-menu--inline {
-  gap: 50px;
+  gap: 2rem;
 } 
 .header:not(.header--middle-left,.header--middle-center) .header__inline-menu {
   margin: 0;
