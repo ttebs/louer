@@ -78,3 +78,6 @@
   max-width: 35px;
   height: 35px;
 }
+.banner.banner__custom--page-width {
+  padding-top: 0;
+}
