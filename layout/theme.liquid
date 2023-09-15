@@ -215,7 +215,10 @@
         }
       }
     {% endstyle %}
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet">
+    
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'base-custom.css' | asset_url | stylesheet_tag }}
     {{ 'styles.css' | asset_url | stylesheet_tag }}
