@@ -16,12 +16,6 @@ h5,
   font-family: 'Figtree', sans-serif !important;
 }
 
-p,
-a,
-span {
-  font-size: 12px;
-}
-
 h1 {
   font-size: 13px !important;
   text-transform: uppercase;
