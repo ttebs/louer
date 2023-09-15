@@ -46,11 +46,6 @@ span {
 .id-scan__form--error {
     display: none;
 }
-.header__menu-item.list-menu__item {
-  font-size: 12px;
-  color: #000;
-  font-weight: 500;
-}
 
 @media screen and (max-width: 1024px) {
     .id-scan img {

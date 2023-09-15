@@ -33,11 +33,11 @@
 }
 
 .header__menu-item::after {
-    content: "|";
+    /* content: "|";
     position: static;
     display: flex;
     width: 3rem;
-    justify-content: end;
+    justify-content: end; */
 }
 
 .list-menu li:last-child .header__menu-item::after {
@@ -50,4 +50,10 @@
 
 .header__search.header__search--desktop {
     display: inline-flex;
+}
+
+.header__menu-item.list-menu__item {
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
 }
