@@ -1104,7 +1104,7 @@ window.onload = function(event) {
         else plan_value = 950
 
         switch (insidebox.innerText.toLowerCase()) {
-          case "pay monthy":
+          case "pay monthly":
               plan.innerHTML = `$${plan_value}`;
               plan.closest(".bottom__price").querySelector('.multicolumn-card__info-price-js > small').innerHTML = "month"
               break;
