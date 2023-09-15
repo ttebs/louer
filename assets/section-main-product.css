@@ -1137,7 +1137,7 @@ a.product__text {
   border-radius: 0;
 }
 
-.thumbnail[aria-current] {
+.thumbnail {
   /* box-shadow: 0 0 0rem 0.1rem rgb(var(--color-foreground));
   border-color: rgb(var(--color-foreground)); */
   border: none;
