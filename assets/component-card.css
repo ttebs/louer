@@ -336,3 +336,10 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+.card__heading .full-unstyled-link,
+.price__container {
+  font-size: 13px;
+  color: #000;
+  font-weight: 500;
+}
