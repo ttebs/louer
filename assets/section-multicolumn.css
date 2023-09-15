@@ -165,7 +165,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 14px;
+  gap: 5px;
 }
 
 .multicolumn-card__info-price-js {
