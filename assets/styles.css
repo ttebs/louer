@@ -16,6 +16,13 @@ h5,
   font-family: 'Figtree', sans-serif !important;
 }
 
+h1 {
+  font-size: 13px !important;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  color: #000;
+}
+
 .id-scan {
     display: flex;
     align-items: center;
