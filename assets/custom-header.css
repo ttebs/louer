@@ -67,3 +67,8 @@
 .header.header--top-center.header--mobile-center {
   padding: 0 15px;
 }
+.header__icon .icon {
+  width: 100%;
+  max-width: 17px;
+  height: 17px;
+}
