@@ -18,9 +18,12 @@ h5,
 
 h1 {
   font-size: 13px !important;
-  /* font-weight: bold; */
   text-transform: uppercase;
   color: #000;
+}
+
+h1 strong {
+  font-weight: normal;
 }
 
 .id-scan {
