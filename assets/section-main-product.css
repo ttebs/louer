@@ -1267,7 +1267,7 @@ a.product__text {
   display: flex;
   flex-direction: row-reverse;
 }
-.product--thumbnail_slider .product__media-gallery > slider-component:first-child {
+.product--thumbnail_slider .product__media-gallery > slider-component {
   width: 75%;
 }
 .product--thumbnail_slider .product__media-gallery > slider-component:last-child {
