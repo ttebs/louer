@@ -1267,12 +1267,12 @@ a.product__text {
   display: flex;
   flex-direction: row-reverse;
 }
-.product--thumbnail_slider .product__media-gallery > slider-component:first-child {
+.product--thumbnail_slider .product__media-gallery > slider-component {
   width: 75%;
 }
 .product--thumbnail_slider .product__media-gallery > slider-component:last-child {
   width: 25%;
 }
-.product--thumbnail_slider .product__media-gallery > slider-component:last-child .thumbnail-list__item {
+.product--small .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
   width: 100%;
 }
