@@ -242,6 +242,9 @@
         "8da004fd-3b0c-42b0-bcce-6e5ebfaeb9e3",
         "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2"
       ],
+      "custom_css": [
+        "h2.image-with-text__heading {font-size: 40px;}"
+      ],
       "settings": {
         "overlaplogo": "shopify:\/\/shop_images\/lour-white-logo-ts.png",
         "image": "shopify:\/\/shop_images\/eeebc93bfc4351bec4feb8169e6b97c0.jpg",
