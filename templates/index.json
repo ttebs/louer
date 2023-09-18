@@ -243,7 +243,7 @@
         "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2"
       ],
       "custom_css": [
-        "h2.image-with-text__heading {font-size: 40px;}"
+        "h2.image-with-text__heading {font-size: 40px; font-family: 'Great Vibes', cursive;}"
       ],
       "settings": {
         "overlaplogo": "shopify:\/\/shop_images\/lour-white-logo-ts.png",
