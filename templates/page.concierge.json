@@ -14,14 +14,14 @@
         "template--17543656014127__3eb7f4f1-f8f3-4b5e-93e6-91d548205a9f-1673474771fe8d4549-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>CONCIERGE<\/p>",
+            "heading": "<p>CONTACT US<\/p>",
             "heading_size": "h1"
           }
         },
         "template--17543656014127__3eb7f4f1-f8f3-4b5e-93e6-91d548205a9f-1673474771fe8d4549-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Exceptional costumer care.<\/p>"
+            "text": "<p>Contact information for client and business inquiries<\/p>"
           }
         }
       },
@@ -41,6 +41,15 @@
     "76b3e987-c891-4687-85de-067bd934351c": {
       "type": "multicolumn-icons",
       "blocks": {
+        "0de99a7d-2a47-4bf9-9f25-91e919cd250f": {
+          "type": "column",
+          "settings": {
+            "icons": "fas fa-phone",
+            "icon_size": "fa-2xl",
+            "link_label": "CALL",
+            "link": ""
+          }
+        },
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-0": {
           "type": "column",
           "settings": {
@@ -70,6 +79,7 @@
         }
       },
       "block_order": [
+        "0de99a7d-2a47-4bf9-9f25-91e919cd250f",
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-0",
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-1",
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-2"
@@ -97,12 +107,14 @@
       "blocks": {
         "template--17543656014127__823cdc39-15d2-419c-8069-600b48cd7c00-1673474771904ebc7d-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>You can reach us via email at members@louerlesac.com<br\/>You can also message us on WhatsApp +1 305 - 000 - 000<\/p>"
           }
         },
         "734134e9-33ff-47ae-bd22-24e19993dcd8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Our offices are open Monday - Friday from 10am - 5:00pm EST<br\/>During other hours, please leave a message or send an email and we will respond as quickly as possible<\/p>"
           }
@@ -112,6 +124,7 @@
         "template--17543656014127__823cdc39-15d2-419c-8069-600b48cd7c00-1673474771904ebc7d-1",
         "734134e9-33ff-47ae-bd22-24e19993dcd8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
