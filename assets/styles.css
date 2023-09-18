@@ -31,6 +31,10 @@ h3 {
   font-size: 18px ;
 }
 
+li {
+  font-size: 12px;
+}
+
 h1 strong {
   font-weight: normal;
 }
