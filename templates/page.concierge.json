@@ -86,7 +86,8 @@
       ],
       "custom_css": [
         ".grid--3-col-desktop .grid__item {width: auto; max-width: none;}",
-        ".multicolumn.multicolumn--style-icons .multicolumn-list {max-width: none;}"
+        ".multicolumn.multicolumn--style-icons .multicolumn-list {max-width: none;}",
+        "screen and (max-width: 1024px) {min-width: 20%;}"
       ],
       "settings": {
         "customClass": "multicolumn--style-icons",
