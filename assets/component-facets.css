@@ -1110,3 +1110,24 @@ input.mobile-facets__checkbox {
     padding: 0 1rem 1rem;
   }
 }
+
+.facet-checkbox {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 7px 10px;
+}
+.card__heading {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.grid__item .product-card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid__item .product-card-wrapper .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
