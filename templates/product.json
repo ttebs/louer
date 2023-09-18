@@ -89,6 +89,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "0b4b2012-9ac1-46a3-a28e-941866503c79": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.have-question {\ndisplay: flex;\nalign-item: center;\ngap: 10px;\n}\n<\/style>\n\n<div class=\"have-question\">\n<p>HAVE A QUESTION?<\/p>\n<a href=\"#\">ASK AN EXPERT<\/a>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -103,7 +109,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "0b4b2012-9ac1-46a3-a28e-941866503c79"
       ],
       "custom_css": [
         "h1,.price__regular .price-item--regular {text-transform: uppercase; font-size: 17px; font-weight: bold; color: #000;}",
