@@ -1131,3 +1131,18 @@ input.mobile-facets__checkbox {
   justify-content: center;
   width: 60%;
 }
+.facet-filters__field .select {
+  border: 1px solid #000;
+  padding: 6px;
+}
+.facet-filters__label,
+.facet-filters__sort,
+.mobile-facets__open-label {
+  font-size: 12px;
+  color: #000;
+}
+.facet-filters__sort+.icon-caret {
+  font-size: 12px;
+  color: #000;
+  right: 12px;
+}
