@@ -23,15 +23,19 @@ h1 {
   color: #000;
 }
 
-h2 {
+.shopify-policy__body h2 {
   font-size: 20px;
 }
 
-h3 {
+.shopify-policy__body h3 {
   font-size: 18px ;
 }
 
-li {
+.shopify-policy__body .rte {
+  font-size: 12px;
+}
+
+.shopify-policy__body li {
   font-size: 12px;
 }
 
