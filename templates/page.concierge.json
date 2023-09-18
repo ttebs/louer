@@ -85,7 +85,8 @@
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-2"
       ],
       "custom_css": [
-
+        ".grid--3-col-desktop .grid__item {width: auto; max-width: none;}",
+        ".multicolumn.multicolumn--style-icons .multicolumn-list {max-width: none;}"
       ],
       "settings": {
         "customClass": "multicolumn--style-icons",
