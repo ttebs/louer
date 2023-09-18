@@ -93,7 +93,7 @@
         "0b4b2012-9ac1-46a3-a28e-941866503c79": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.have-question {\ndisplay: flex;\nalign-item: center;\ngap: 10px;\n}\n.have-question span,\n.have-question a {\nfont-size: 15px;\ncolor: #000;\nfont-weight: 500;\n}\n<\/style>\n\n<div class=\"have-question\">\n<span>HAVE A QUESTION?<\/span>\n<a href=\"#\">ASK AN EXPERT<\/a>\n<\/div>"
+            "custom_liquid": "<style>\n.have-question {\ndisplay: flex;\nalign-item: center;\ngap: 10px;\n}\n.have-question span,\n.have-question a {\nfont-size: 15px;\ncolor: #000;\nfont-weight: 500;\n}\n<\/style>\n\n<div class=\"have-question\">\n<span>HAVE A QUESTION?<\/span>\n<a href=\"\/pages\/concierge\">ASK AN EXPERT<\/a>\n<\/div>"
           }
         }
       },
