@@ -280,7 +280,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -298,6 +298,9 @@
       },
       "block_order": [
         "49b2b844-c1d0-4ac4-a702-634fce10ae45"
+      ],
+      "custom_css": [
+        "#insta-feed {margin-bottom: 60px;}"
       ],
       "settings": {
         "include_margins": true
