@@ -70,6 +70,7 @@
   width: 100%;
   max-width: 1690px;
   margin: 0 auto;
+  border-bottom: 0.1rem solid rgba(var(--color-foreground),.08);
 }
 .header__icon .icon {
   width: 100%;
@@ -85,4 +86,7 @@
 }
 .header__heading-link {
   padding: 0;
+}
+.header-wrapper--border-bottom {
+  border-bottom: none;
 }
