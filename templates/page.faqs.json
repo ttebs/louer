@@ -29,6 +29,9 @@
         "template--17556832715055__442761bc-cb9d-4cbf-a7f7-41aafb1cd3df-167355007992800c96-0",
         "template--17556832715055__442761bc-cb9d-4cbf-a7f7-41aafb1cd3df-167355007992800c96-1"
       ],
+      "custom_css": [
+        ".rich-text__text.rte p {font-size: 12px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
