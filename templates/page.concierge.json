@@ -14,8 +14,8 @@
         "template--17543656014127__3eb7f4f1-f8f3-4b5e-93e6-91d548205a9f-1673474771fe8d4549-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>CONTACT US<\/p>",
-            "heading_size": "h1"
+            "heading": "<h1>CONTACT US<\/h1>",
+            "heading_size": "h2"
           }
         },
         "template--17543656014127__3eb7f4f1-f8f3-4b5e-93e6-91d548205a9f-1673474771fe8d4549-1": {
@@ -142,7 +142,7 @@
     "276a88b8-6af3-4934-8252-854e2899ddc7": {
       "type": "contact-form",
       "custom_css": [
-        ".contact__button {text-align: right}"
+        ".contact__button {text-align: right;}"
       ],
       "settings": {
         "heading": "",
