@@ -145,7 +145,8 @@
     "276a88b8-6af3-4934-8252-854e2899ddc7": {
       "type": "contact-form",
       "custom_css": [
-        ".contact__button {text-align: right;}"
+        ".contact__button {text-align: right;}",
+        "input::placeholder {font-size: 12px;}"
       ],
       "settings": {
         "heading": "",
