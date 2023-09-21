@@ -133,7 +133,8 @@
         "10681bbf-ebf5-4691-923d-bb771ef1a172"
       ],
       "custom_css": [
-        ".faq-Button__Text {font-weight: 400; color: #000;}",
+        ".faq-Button__Text {font-weight: 400; color: #000; text-transform: uppercase;}",
+        ".faq-Button__Text i {color: #878787;}",
         ".faqs-TextContainer {border-bottom: none; color: #000;}"
       ],
       "settings": {
