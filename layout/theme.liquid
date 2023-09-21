@@ -246,7 +246,7 @@
     <script src="https://kit.fontawesome.com/fa371cbe76.js" crossorigin="anonymous"></script>
   </head>
 
-  <body class="gradient">
+  <body class="gradient {% if template == 'index' %}homepage{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
