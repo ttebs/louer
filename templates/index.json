@@ -243,7 +243,7 @@
         "template--17167329427759__6fa72e62-4172-4ab7-b40d-e2af5880c323-167180364472791f00-2"
       ],
       "custom_css": [
-        ".custom__banner--with-text .subtitle {margin: 25px 0 0; font-weight: 500; color: #000;}"
+        ".custom__banner--with-text .subtitle {margin: 25px 0 0; font-weight: 400; color: #000;}"
       ],
       "settings": {
         "overlaplogo": "shopify:\/\/shop_images\/lour-white-logo-ts.png",
