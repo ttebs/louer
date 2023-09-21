@@ -108,9 +108,9 @@ input.field__input {
   font-size: 12px;
 }
 .swym-btn-container[data-position=default] .swym-add-to-wishlist.swym-icon {
-  height: 0%;
-  line-height: initial;
-  background-image: none;
+  height: 0% !important;
+  line-height: initial !important;
+  background-image: none !important;
   position: relative;
   top: -20px;
 }
