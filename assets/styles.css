@@ -101,6 +101,9 @@ h1 strong {
         gap: 0;
     }
 }
-input::placeholder {
-  font-size: 12px !important;
+input.field__input {
+  font-size: 12px;
+}
+.field__label {
+  font-size: 12px;
 }
