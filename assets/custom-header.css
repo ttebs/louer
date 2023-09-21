@@ -70,7 +70,7 @@
   width: 100%;
   max-width: 1690px;
   margin: 0 auto;
-  border-bottom: 0.1rem solid rgba(var(--color-foreground),.08);
+  border-bottom: 1px solid #ddd;
 }
 .header__icon .icon {
   width: 100%;
