@@ -59,7 +59,7 @@
   padding: 0;
 }
 .header__inline-menu .list-menu--inline {
-  gap: 2rem;
+  gap: 1rem;
 } 
 .header:not(.header--middle-left,.header--middle-center) .header__inline-menu {
   margin: 0;
