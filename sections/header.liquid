@@ -712,11 +712,11 @@
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
       if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
-      console.log("scrollTop", scrollTop)
-      console.log("this.currentScrollTop", this.currentScrollTop)
 
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         if (this.preventHide) return;
+      console.log("scrollTop", test)
+        
         requestAnimationFrame(this.reveal.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         if (!this.preventReveal) {
