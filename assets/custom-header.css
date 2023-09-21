@@ -65,7 +65,7 @@
   margin: 0;
 }
 .header.header--top-center.header--mobile-center {
-  padding: 10px 15px;
+  padding: 0 15px 10px;
   width: 100%;
   max-width: 1690px;
   margin: 0 auto;
