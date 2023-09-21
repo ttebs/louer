@@ -1306,6 +1306,9 @@ h1 {
   border-radius: 3px;
   transition: none;
   animation: none;
+  height: 50px;
+  min-height: 0;
+  font-weight: bold;
 }
 .shopify-payment-button {
   width: 40%;
