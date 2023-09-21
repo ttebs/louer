@@ -133,7 +133,7 @@
         "10681bbf-ebf5-4691-923d-bb771ef1a172"
       ],
       "custom_css": [
-        ".faq-Button__Text {font-weight: 500; color: #000;}",
+        ".faq-Button__Text {font-weight: 400; color: #000;}",
         ".faqs-TextContainer {border-bottom: none; color: #000;}"
       ],
       "settings": {
@@ -245,7 +245,7 @@
         "b9d6d23a-f622-4f33-923a-7e028c284e40"
       ],
       "custom_css": [
-        ".faq-Button__Text {font-weight: 500; color: #000;}",
+        ".faq-Button__Text {font-weight: 400; color: #000;}",
         ".faqs-TextContainer {border-bottom: none; color: #000;}"
       ],
       "settings": {
