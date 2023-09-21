@@ -107,3 +107,11 @@ input.field__input {
 .field__label {
   font-size: 12px;
 }
+.swym-btn-container[data-position=default] .swym-add-to-wishlist.swym-icon {
+  height: 0%;
+  line-height: initial;
+  background-image: none;
+  position: relative;
+  top: -20px;
+}
+}
