@@ -70,6 +70,8 @@
   width: 100%;
   max-width: 1690px;
   margin: 0 auto;
+}
+body:not(.homepage) .header.header--top-center.header--mobile-center {
   border-bottom: 1px solid #ddd;
 }
 .header__icon .icon {
