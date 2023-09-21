@@ -715,7 +715,7 @@
 
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         if (this.preventHide) return;
-        console.log("test", test)
+        console.log("test")
         
         requestAnimationFrame(this.reveal.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
