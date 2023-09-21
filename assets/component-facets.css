@@ -1147,3 +1147,7 @@ input.mobile-facets__checkbox {
   color: #000;
   right: 12px;
 }
+.facet-checkbox>input[type=checkbox]:checked~.icon-checkmark {
+  top: 6px;
+  left: 10px;
+}
