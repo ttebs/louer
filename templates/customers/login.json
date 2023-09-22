@@ -6,14 +6,14 @@
         "template--17167328641327__eed104a8-81a6-4054-a14d-15c31b8f040e-167388657962c4f641-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Login<\/p>",
+            "heading": "<h1>Login<\/h1>",
             "heading_size": "h1"
           }
         },
         "template--17167328641327__eed104a8-81a6-4054-a14d-15c31b8f040e-167388657962c4f641-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Enter your password to acces your account.<\/p>"
+            "text": "<p>ENTER YOUR PASSWORD TO ACCESS YOUR ACCOUNT<\/p>"
           }
         }
       },
@@ -21,13 +21,16 @@
         "template--17167328641327__eed104a8-81a6-4054-a14d-15c31b8f040e-167388657962c4f641-0",
         "template--17167328641327__eed104a8-81a6-4054-a14d-15c31b8f040e-167388657962c4f641-1"
       ],
+      "custom_css": [
+        ".rich-text__text.rte p {font-size: 12px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52
       }
     },
     "main": {
