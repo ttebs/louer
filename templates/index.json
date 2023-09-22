@@ -246,7 +246,7 @@
         ".custom__banner--with-text .subtitle {margin: 25px 0 0; font-weight: 400; color: #000;}"
       ],
       "settings": {
-        "overlaplogo": "shopify:\/\/shop_images\/lour-white-logo-ts.png",
+        "overlaplogo": "shopify:\/\/shop_images\/lour-white-logo-ts.webp",
         "image": "shopify:\/\/shop_images\/eeebc93bfc4351bec4feb8169e6b97c0.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
