@@ -216,7 +216,8 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        "h2.product-recommendations__heading {font-size: 18px;}"
+        "h2.product-recommendations__heading {font-size: 18px;}",
+        ".card__product-type {font-size: 12px; text-transform: uppercase; color: #000; font-weight: 400;}"
       ],
       "settings": {
         "heading": "YOU MAY ALSO LIKE",
