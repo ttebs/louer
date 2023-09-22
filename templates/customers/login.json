@@ -39,7 +39,9 @@
         ".customer.login {max-width: 734px;}",
         ".rich-text__heading {font-size: 1.68rem; text-transform: uppercase;}",
         ".rich-text__text {margin-top: 0;}",
-        ".rich-text__text p {font-size: 1.25rem;}"
+        ".rich-text__text p {font-size: 1.25rem;}",
+        ".customer.login > div:first-child #rc_login a,a.button.button__login {background: #000;}",
+        "a.button.button__login {background: #000;}"
       ],
       "settings": {
         "padding_top": 36,
