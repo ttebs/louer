@@ -31,12 +31,12 @@
     "featured-collection": {
       "type": "featured-collection",
       "custom_css": [
-        "h3 {font-size: 18px;}"
+        "h2 {font-size: 18px; text-align: center;}"
       ],
       "settings": {
-        "title": "",
+        "title": "YOU MAY ALSO LIKE",
         "heading_size": "h2",
-        "description": "<h3>YOU MAY ALSO LIKE<\/h3>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
