@@ -340,13 +340,11 @@
 .card__heading .full-unstyled-link,
 .price__container {
   font-size: 13px;
-  color: #000;
   font-weight: 400;
   text-transform: capitalize;
 }
 .card__product-type {
   font-size: 12px;
   text-transform: uppercase;
-  color: #000;
   font-weight: bold;
 }
