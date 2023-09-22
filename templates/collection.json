@@ -11,7 +11,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "show-more-button .label-text,.facets__header-vertical {font-size: 12px; text-transform: uppercase; color: #000;}"
+        "show-more-button .label-text,.facets__header-vertical {font-size: 12px; text-transform: uppercase;}"
       ],
       "settings": {
         "products_per_page": 24,
