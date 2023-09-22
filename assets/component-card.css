@@ -346,5 +346,6 @@
 .card__product-type {
   font-size: 12px;
   text-transform: uppercase;
+  color: #000;
   font-weight: bold;
 }
