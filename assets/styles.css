@@ -13,7 +13,8 @@ h5,
 .h3,
 .h4,
 .h5,
-button {
+button,
+div {
   font-family: 'Figtree', sans-serif !important;
   font-weight: 400;
 }
