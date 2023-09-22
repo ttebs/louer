@@ -40,8 +40,8 @@
         ".rich-text__heading {font-size: 1.68rem; text-transform: uppercase;}",
         ".rich-text__text {margin-top: 0;}",
         ".rich-text__text p {font-size: 1.25rem;}",
-        ".customer.login > div:first-child #rc_login a,a.button.button__login {background: #000;}",
-        ".link.link__create-account,.customer button {background: #000;}"
+        ".customer.login > div:first-child #rc_login a,a.button.button__login {background: #000; font-family: Figtree,sans-serif!important;}",
+        ".link.link__create-account,.customer button {background: #000; font-family: Figtree,sans-serif!important;}"
       ],
       "settings": {
         "padding_top": 36,
