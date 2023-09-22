@@ -1308,7 +1308,6 @@ h1 {
   animation: none;
   height: 50px;
   min-height: 0 !important;
-  font-weight: bold;
 }
 .shopify-payment-button {
   width: 40%;
