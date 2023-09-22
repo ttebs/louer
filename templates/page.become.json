@@ -114,8 +114,8 @@
         "template--17421156679983__c3f0aa84-d30b-4f6f-8ffa-b3b03dd6f278-16733632277efeae93-2"
       ],
       "custom_css": [
-        ".multicolumn-card__info--GOLD h3,.multicolumn-card__info--GOLD h4,.multicolumn-card__info--GOLD p,.multicolumn-card__info--GOLD span{color: #000;}",
-        ".multicolumn-card .multicolumn-card__info--GOLD .link {font-weight: 500; color: #000;}"
+        ".multicolumn-card__info--GOLD h3,.multicolumn-card__info--GOLD h4,.multicolumn-card__info--GOLD p,.multicolumn-card__info--GOLD span {color: #000;}",
+        ".multicolumn-card .multicolumn-card__info--GOLD .link,.multicolumn-card__info .link {font-weight: 400; color: #000;}"
       ],
       "settings": {
         "customClass": "multicolumn--style-3",
