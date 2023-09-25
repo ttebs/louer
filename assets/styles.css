@@ -19,10 +19,23 @@ div {
   font-weight: 400;
 }
 
-h1 {
+/* h1 {
   font-size: 20px !important;
   text-transform: uppercase;
   color: #000;
+} */
+
+h1 {
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1.2px;
+  margin-bottom: 7px;
+}
+h5 {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
 }
 
 .shopify-policy__body h2 {
