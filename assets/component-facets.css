@@ -1154,14 +1154,14 @@ input.mobile-facets__checkbox {
   text-transform: uppercase;
   padding: 0 7px 10px;
 }
-.facets__summary span,
 .facet-checkbox span {
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.67px;
 }
-.facets__heading--vertical {
+.facets__heading--vertical,
+.facets__summary span {
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 600;
