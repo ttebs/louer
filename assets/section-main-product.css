@@ -1280,6 +1280,14 @@ a.product__text {
 .product--small .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
   width: 100%;
 }
+h1 {
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: .5px;
+  margin: 0;
+  text-align: left;
+}
 .card__product-type {
   font-weight: bold;
 }
