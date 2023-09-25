@@ -46,6 +46,12 @@ h3 a {
   text-transform: uppercase !important;
   letter-spacing: 0 !important;
 }
+.price__regular .price-item--regular {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0 !important;
+}
 
 header a {
   font-size: 11px !important;
