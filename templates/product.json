@@ -113,6 +113,7 @@
         "0b4b2012-9ac1-46a3-a28e-941866503c79"
       ],
       "custom_css": [
+        "h1 {text-transform: uppercase; font-size: 17px !important; font-weight: bold; color: #000;}",
         ".card__product-type {font-weight: bold;}",
         ".product-form__buttons {display: flex; align-items: flex-start; justify-content: space-between;}",
         ".product-form__submit,.shopify-payment-button__button {width: 40%; color: #000; border: 2px solid #e7e7e7; background: #f9f9f9; text-transform: uppercase; font-size: 13px; border-radius: 3px; transition: none; animation: none;}",
