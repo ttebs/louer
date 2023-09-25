@@ -13,7 +13,7 @@
         "template--17167328641327__eed104a8-81a6-4054-a14d-15c31b8f040e-167388657962c4f641-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ENTER YOUR PASSWORD TO ACCESS YOUR ACCOUNT<\/p>"
+            "text": "<h5>ENTER YOUR PASSWORD TO ACCESS YOUR ACCOUNT<\/h5>"
           }
         }
       },
@@ -41,7 +41,7 @@
         ".rich-text__text {margin-top: 0;}",
         ".rich-text__text p {font-size: 1.25rem;}",
         ".customer.login > div:first-child #rc_login a,a.button.button__login {background: #000; font-family: Figtree, sans-serif !important;}",
-        ".link.link__create-account,.customer button {font-family: Figtree, sans-serif !important;}"
+        ".link.link__create-account,.customer button {font-family: Figtree, sans-serif !important; background: #000;}"
       ],
       "settings": {
         "padding_top": 36,
