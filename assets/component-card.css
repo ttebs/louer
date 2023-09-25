@@ -344,7 +344,8 @@
   text-transform: capitalize;
 }
 .card__product-type {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #000;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0 !important;
 }
