@@ -30,13 +30,15 @@ h1 {
   text-transform: uppercase;
   color: #000;
   letter-spacing: 1.2px;
-  margin-bottom: 7px;
+  margin-bottom: 7px !important;
+  color: #000;
 }
 h5 {
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 0.7px;
   margin: 0;
+  color: #000;
 }
 
 .shopify-policy__body h2 {
