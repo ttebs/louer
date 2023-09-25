@@ -33,6 +33,14 @@ h1 {
   margin-bottom: 7px !important;
   color: #000;
 }
+h2 {
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1.2px;
+  margin-bottom: 7px !important;
+  color: #000;
+}
 h5 {
   font-size: 9px;
   text-transform: uppercase;
