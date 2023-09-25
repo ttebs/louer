@@ -1280,13 +1280,6 @@ a.product__text {
 .product--small .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
   width: 100%;
 }
-
-h1 {
-  text-transform: uppercase;
-  font-size: 17px !important;
-  font-weight: bold;
-  color: #000;
-}
 .card__product-type {
   font-weight: bold;
 }
