@@ -94,6 +94,26 @@
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  i.icon-swym-wishlist {
+  font-family: 'swym-font';
+  font-style: normal;
+  vertical-align: middle;
+  }
+  i.icon-swym-wishlist+span {
+  vertical-align: middle;
+  }
+  i.icon-swym-wishlist:after {
+  content: '';
+  font-size: 130%;
+  line-height: 18px;
+  text-align: center;
+  display: inline;
+  }
+  /*content rendered after swym is ready to avoid showing block/invalid chars*/
+  .swym-ready i.icon-swym-wishlist:after {
+  content: '\f004';
+  }
+
   @media screen and (min-width: 750px) {
     .section-header {
       margin-bottom: {{ section.settings.margin_bottom }}px;
@@ -609,7 +629,11 @@
       </details-modal>
 
       {% comment %} # REMOVE FOR LIVE # {% endcomment %}
-
+      <!-- favorites -->
+      <a href="#swym-wishlist" class="swym-wishlist">
+        <i aria-hidden="true" focusable="false" role="presentation" class="icon icon-swym-wishlist"></i>
+      </a>
+                    
       {%- unless shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
