@@ -197,9 +197,7 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '', show_tags: show_tags %}
-            <!-- Swym Wishlist Plus EPI Button-->
-            <button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product product_{{product.id}}" data-swaction="addToWishlist" data-product-id="{{product.id | json}}" data-variant-id="{{product.variants[0].id}}" data-product-url="{{ shop.url }}{{ product.url }}"></button>
-            <!-- Swym Wishlist Plus EPI Button-->
+            
           </div>
         </div>
         {%- if show_quick_add -%}
@@ -317,6 +315,9 @@
             </span>
           {%- endif -%}
         </div>
+  <!-- Swym Wishlist Plus EPI Button-->
+            <button data-with-epi="true" class="swym-button swym-add-to-wishlist-view-product product_{{product.id}}" data-swaction="addToWishlist" data-product-id="{{product.id | json}}" data-variant-id="{{product.variants[0].id}}" data-product-url="{{ shop.url }}{{ product.url }}"></button>
+            <!-- Swym Wishlist Plus EPI Button-->
       </div>
     </div>
   </div>
