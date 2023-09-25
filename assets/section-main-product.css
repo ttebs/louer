@@ -372,6 +372,7 @@ a.product__text {
   background: transparent;
   color: rgb(var(--color-base-text));
   border-color: transparent;
+  font-size: 12px;
 }
 
 .product .price--sold-out .price__badge-sale {
