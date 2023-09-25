@@ -41,6 +41,13 @@ h5 {
   color: #000;
 }
 
+header a {
+  font-size: 11px !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+}
+
 .shopify-policy__body h2 {
   font-size: 20px;
 }
