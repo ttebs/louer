@@ -16,7 +16,8 @@
         ".grid__item {position: relative;}",
         ".swym-button.swym-add-to-wishlist-view-product.swym-heart:after {display: none;}",
         ".quick-add {position: absolute; top: -19px; right: -27px;}",
-        ".quick-add__submit {width: 58px; min-width: 0; top: 2px; color: #a8a8a8;}"
+        ".quick-add__submit {width: 58px; min-width: 0; top: 2px; color: #a8a8a8;}",
+        ".sold-out-message{font-size:12px;}"
       ],
       "settings": {
         "products_per_page": 24,
