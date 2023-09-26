@@ -12,7 +12,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "show-more-button .label-text,.facets__header-vertical {font-size: 12px; text-transform: uppercase;}",
-        ".swym-button.swym-add-to-wishlist-view-product {position: absolute; right: 23px; z-index: 9999999; width: 15px;}",
+        ".swym-button.swym-add-to-wishlist-view-product {position: absolute; right: 23px; z-index: 2; width: 15px;}",
         ".grid__item {position: relative;}",
         ".swym-button.swym-add-to-wishlist-view-product.swym-heart:after {display: none;}",
         ".quick-add {position: absolute; top: -19px; right: -27px;}",
