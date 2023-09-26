@@ -99,11 +99,11 @@
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
             {% if customer.metafields.customer_fields.monthly_membership_plan contains "SILVER" %}
-              {% assign membership = "Silver Membership" %}
+              {% assign membership = "silver-membership" %}
             {% elsif customer.metafields.customer_fields.monthly_membership_plan contains "GOLD"  %}
-              {% assign membership = "Gold Membership" %}
+              {% assign membership = "gold-membership" %}
             {% else %}
-              {% assign membership = "Platinum Membership" %}
+              {% assign membership = "platinum-membership" %}
             {%- endif -%}
             <ul id="product-grid" data-membership="{{ membership }}" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
@@ -157,6 +157,9 @@
     item.querySelector('span').innerHTML = addToCartIcon
     item.querySelector('span').style.width = "30px"
   });
+
+  const planMembership = document.querySelector('.product-grid').dataset.membership
+  console.log("planMembership", planMembership)
   
 </script>
 
