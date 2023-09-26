@@ -28,6 +28,10 @@
         "subtotal",
         "buttons"
       ],
+      "custom_css": [
+        ".tax-note {font-size: 12px;}",
+        ".totals__subtotal {margin: 0 !important;}"
+      ],
       "settings": {
       }
     },
