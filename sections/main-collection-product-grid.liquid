@@ -109,7 +109,7 @@
               {% else %}
                 {% assign membership = "Platinum Membership" %}
               {%- endif -%}
-              {% assign filtered_products = collection.products | where: "product_type", membership %}
+              {% assign filtered_products = collection.products | where: "product_type", 'Gold Membership' %}
           
               {%- for product in filtered_products -%}
                 
