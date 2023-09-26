@@ -11,7 +11,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        "show-more-button .label-text,.facets__header-vertical {font-size: 12px; text-transform: uppercase;}"
+        "show-more-button .label-text,.facets__header-vertical {font-size: 12px; text-transform: uppercase;}",
+        ".swym-button.swym-add-to-wishlist-view-product {position: absolute; right: 0; z-index: 9999999;}"
       ],
       "settings": {
         "products_per_page": 24,
