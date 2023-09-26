@@ -200,7 +200,7 @@
             
           </div>
         </div>
-        {%- if show_quick_add -%}
+        {%- if show_quick_add and customer -%}
           <div class="quick-add no-js-hidden">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
             {%- if card_product.variants.size == 1 -%}
