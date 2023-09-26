@@ -15,7 +15,7 @@
         ".swym-button.swym-add-to-wishlist-view-product {position: absolute; right: 0; z-index: 9999999; width: 20px;}",
         ".grid__item {position: relative;}",
         ".swym-button.swym-add-to-wishlist-view-product.swym-heart.swym-added:after {display: none;}",
-        ".swym-button.swym-add-to-wishlist-view-product.swym-heart:after{display: none;}"
+        ".swym-button.swym-add-to-wishlist-view-product.swym-heart:after {display: none;}"
       ],
       "settings": {
         "products_per_page": 24,
@@ -25,7 +25,7 @@
         "show_tags": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
