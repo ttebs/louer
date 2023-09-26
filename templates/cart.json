@@ -3,7 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "custom_css": [
-        "a,.product-option,.price--end,input {font-size: 12px; text-decoration: none;}"
+        "a,.product-option,.price--end,input,.tax-note {font-size: 12px; text-decoration: none;}"
       ],
       "settings": {
         "padding_top": 36,
