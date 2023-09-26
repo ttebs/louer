@@ -50,6 +50,9 @@
         "template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-1",
         "template--17167329427759__12ab496d-b0e0-4f04-aab6-8144e9d4f8ca-1671815720f85b5c37-2"
       ],
+      "custom_css": [
+        ".banner__heading {font-size: 65px !important;}"
+      ],
       "settings": {
         "customClass": "multicolumn--style-1 banner__custom--page-width banner__custom--titles banner__custom--subtitles",
         "image": "shopify:\/\/shop_images\/bringing-some-sparkle-on-a-walk.jpg",
