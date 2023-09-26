@@ -180,6 +180,6 @@ input.field__input {
   position: relative;
   top: -20px;
 }
-.quick-add__submit:hover {
-  border: none !important;
+.button:after {
+  box-shadow: none !important;
 }
