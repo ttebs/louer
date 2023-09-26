@@ -148,7 +148,8 @@
     collectionAddToCartBtn.forEach((item) => {
         // item.innerHTML = '';
       
-        item.insertAdjacentHTML("afterbegin",addToCartIcon)
+        // item.insertAdjacentHTML("afterbegin",addToCartIcon)
+      item.firstChild.innerHTML = addToCartIcon
        // item.appendChild(svgElement.cloneNode(true)); // Clone the SVG to avoid reusing the same element
     });
   
