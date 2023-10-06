@@ -14,14 +14,14 @@
         "template--17543656014127__3eb7f4f1-f8f3-4b5e-93e6-91d548205a9f-1673474771fe8d4549-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>CONTACT US<\/h1>",
-            "heading_size": "h2"
+            "heading": "<h1><strong>CONCIERGE<\/strong><\/h1>",
+            "heading_size": "h0"
           }
         },
         "template--17543656014127__3eb7f4f1-f8f3-4b5e-93e6-91d548205a9f-1673474771fe8d4549-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>CONTACT INFORMATION FOR CLIENT AND BUSINESS INQUIRIES<\/h5>"
+            "text": "<p>You can reach us via email at members@louerlesac.com<br\/>You can also message us on WhatsApp +1 786-580-1225<\/p><p>Our offices are open Monday - Friday from 10am - 5:00pm EST<br\/>During other hours, please leave a message or send an email and we will respond as quickly as possible<\/p>"
           }
         }
       },
@@ -87,6 +87,7 @@
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-1",
         "template--17543656014127__76b3e987-c891-4687-85de-067bd934351c-1673536575f39cb9ae-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid--3-col-desktop .grid__item {width: auto; max-width: none;}",
         ".multicolumn.multicolumn--style-icons .multicolumn-list {max-width: none;}",
