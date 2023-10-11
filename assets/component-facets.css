@@ -1212,4 +1212,8 @@ input.mobile-facets__checkbox {
     position: relative;
     width: 100%;
   }
+  .facets-vertical .product-grid-container {
+    align-items: center;
+    justify-content: center;
+  }
 }
