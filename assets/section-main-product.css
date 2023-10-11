@@ -1319,6 +1319,9 @@ h1 {
 .product-form__input {
   display: none;
 }
+.have-question {
+  margin-top: 40px;
+}
 .have-question span, .have-question a {
   font-weight: 400!important;
   text-transform: uppercase;
