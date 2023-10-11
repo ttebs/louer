@@ -1205,3 +1205,11 @@ input.mobile-facets__checkbox {
 .facets__form-vertical {
   width: auto;
 }
+@media screen and (max-width: 767px) {
+  .facets-vertical .facets-wrapper {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+}
