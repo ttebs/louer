@@ -467,5 +467,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".shopify-policy__title {margin: 60px 0 40px;}"
+    ]
   }
 }
