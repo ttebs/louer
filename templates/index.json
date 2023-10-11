@@ -247,7 +247,7 @@
       ],
       "custom_css": [
         ".custom__banner--with-text .subtitle {margin: 25px 0 0; font-weight: 400; color: #000;}",
-        "img.logo_overlap {object-fit: contain; width: 100%; left: 80px !important; top: 7px !important; max-width: 250px !important;}",
+        "img.logo_overlap {object-fit: contain; margin: 0 auto; left: -200px !important; right: 0 !important; width: 100%; top: 7px !important; max-width: 250px !important;}",
         ".image-with-text__heading {color: #878787; font-size: 65px !important;}"
       ],
       "settings": {
