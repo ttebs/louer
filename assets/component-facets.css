@@ -1185,7 +1185,7 @@ input.mobile-facets__checkbox {
 .facets-vertical.page-width{
     width: 100%;
     max-width: 1690px;
-    padding: 0;
+    padding: 0 20px;
 }
 .facets-vertical .facets-wrapper {
   position: fixed;
