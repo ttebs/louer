@@ -966,7 +966,7 @@ input.mobile-facets__checkbox {
   .facets__form-vertical {
     display: flex;
     flex-direction: column;
-    width: 26rem;
+    /* width: 26rem; */
   }
 
   .facets__disclosure-vertical {
@@ -1191,6 +1191,8 @@ input.mobile-facets__checkbox {
   position: fixed;
   z-index: 2;
   width: 20%;
+  height: 600px;
+  overflow-y: auto;
 }
 .facets-vertical .product-grid-container {
   display: flex;
@@ -1199,4 +1201,7 @@ input.mobile-facets__checkbox {
 }
 .facets-vertical .product-grid-container .collection {
   width: 80%;
+}
+.facets__form-vertical {
+  width: auto;
 }
