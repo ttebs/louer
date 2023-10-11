@@ -1182,3 +1182,13 @@ input.mobile-facets__checkbox {
   justify-content: center;
   width: 60%;
 }
+.facets-vertical.page-width{
+    width: 100%;
+    max-width: 1690px;
+    padding: 0;
+}
+.facets-vertical .facets-wrapper {
+  position: fixed;
+  z-index: 2;
+  width: 20%;
+}
