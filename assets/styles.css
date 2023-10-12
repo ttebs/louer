@@ -222,7 +222,7 @@ img.logo_overlap {
     left: -102px !important;
     top: -57px !important;
   }
-  .image-with-text .global-media-settings {
+  .image-with-text .image-with-text__media.global-media-settings {
     overflow: unset !important;
   }
   .banner.banner__custom--page-width {
