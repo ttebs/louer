@@ -201,6 +201,9 @@ img.logo_overlap {
   color: #878787;
   font-size: 65px !important;
 }
+.banner__heading {
+  font-size: 65px !important;
+}
 @media screen and (max-width: 1023px) {
   .image-with-text {
     padding: 80px 20px;
