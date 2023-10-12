@@ -223,7 +223,7 @@ img.logo_overlap {
     overflow: unset !important;
   }
   .banner.banner__custom--page-width {
-    min-height: 400px;
-    height: 400px;
+    min-height: 400px !important;
+    height: 400px !important;
   }
 }
