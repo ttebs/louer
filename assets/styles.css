@@ -204,6 +204,9 @@ img.logo_overlap {
 .banner__heading {
   font-size: 65px !important;
 }
+.image-with-text .image-with-text__media.global-media-settings {
+  overflow: unset !important;
+}
 @media screen and (max-width: 1023px) {
   .image-with-text {
     padding: 80px 20px;
@@ -221,9 +224,6 @@ img.logo_overlap {
   .image-with-text__media img.logo_overlap {
     left: -102px !important;
     top: -57px !important;
-  }
-  .image-with-text .image-with-text__media.global-media-settings {
-    overflow: unset !important;
   }
   .banner.banner__custom--page-width {
     min-height: 400px !important;
