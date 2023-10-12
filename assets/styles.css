@@ -232,4 +232,7 @@ img.logo_overlap {
   .banner__heading {
     font-size: 30px !important;
   }
+  .banner__custom--subtitles .subtitle {
+    font-size: 20px !important;
+  }
 }
