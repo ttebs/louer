@@ -192,7 +192,7 @@ input.field__input {
     left: 60px;
     overflow: unset !important;
   }
-  .image-with-text .image-with-text__media img.logo_overlap {
+  .image-with-text.image-with-text--no-overlap.custom__banner--with-text .image-with-text__media img.logo_overlap {
     left: -102px !important;
     top: -57px !important;
   }
