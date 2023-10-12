@@ -197,7 +197,7 @@ input.field__input {
     top: -57px !important;
   }
   .custom__banner--theme-1 .media img:not(.logo_overlap) {
-    top: 0;
+    top: 0 !important;
   }
   .custom__banner--theme-1 .h1 {
     font-size: 30px !important;
