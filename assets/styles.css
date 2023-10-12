@@ -235,3 +235,9 @@ img.logo_overlap {
     font-size: 20px !important;
   }
 }
+@media screen and (max-width: 767px) {
+  .custom__banner--theme-1 .image-with-text__content {
+    margin-top: 40px;
+  }
+}
+
