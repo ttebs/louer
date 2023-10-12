@@ -183,3 +183,20 @@ input.field__input {
 .button:after {
   box-shadow: none !important;
 }
+@media screen and (max-width: 1023px) {
+  .image-with-text {
+    padding: 80px 20px;
+  }
+  .custom__banner--theme-1 .global-media-settings {
+    max-width: 300px;
+    left: 60px;
+    overflow: unset !important;
+  }
+  img.logo_overlap {
+    left: -102px !important;
+    top: -57px !important;
+  }
+  .custom__banner--theme-1 .media img:not(.logo_overlap) {
+    top: 0;
+  }
+}
