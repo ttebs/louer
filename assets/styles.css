@@ -229,4 +229,7 @@ img.logo_overlap {
     min-height: 400px !important;
     height: 400px !important;
   }
+  .banner__heading {
+    font-size: 30px !important;
+  }
 }
