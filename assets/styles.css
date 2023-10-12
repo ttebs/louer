@@ -190,7 +190,6 @@ input.field__input {
   .image-with-text .global-media-settings{
     max-width: 300px;
     left: 60px;
-    overflow: unset !important;
   }
   .custom__banner--theme-1 .media img:not(.logo_overlap) {
     top: 0 !important;
