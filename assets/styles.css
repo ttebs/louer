@@ -188,7 +188,7 @@ input.field__input {
   font-weight: 400;
   color: #000;
 }
-img.logo_overlap {
+.image-with-text__media img.logo_overlap {
   object-fit: contain;
   margin: 0 auto;
   left: -200px !important;
