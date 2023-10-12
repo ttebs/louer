@@ -187,7 +187,7 @@ input.field__input {
   .image-with-text {
     padding: 80px 20px;
   }
-  .custom__banner--theme-1 .global-media-settings {
+  .custom__banner--theme-1 .global-media-settings{
     max-width: 300px;
     left: 60px;
     overflow: unset !important;
