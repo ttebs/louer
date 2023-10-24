@@ -1217,6 +1217,6 @@ input.mobile-facets__checkbox {
     justify-content: center;
   }
 }
-.facets__form-vertical .facets__disclosure-vertical:first-child {
+#FacetsWrapperDesktop > details:first-child {
   border-top: none;
 }
