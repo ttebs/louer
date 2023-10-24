@@ -1205,8 +1205,12 @@ window.onload = function(event) {
   const originalString = "membership (11)";
   const modifiedString = originalString.replace(/\([^)]*\)/g, '').trim();
    filterItems.forEach((item) => {
+    const regex = /\(.*\)/;
     const originalString = item.textContent;
-     console.log("originalString", originalString)
-    originalString.replace(/\([^)]*\)/g, '').trim();
+     if(regex.test(originalString)) {
+       console.log("originalString", originalString)
+      // originalString.replace(/\([^)]*\)/g, '').trim();
+       
+     }
   })
 }
