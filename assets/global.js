@@ -1208,9 +1208,7 @@ window.onload = function(event) {
     const regex = /\(.*\)/;
     const originalString = item.textContent;
      if(regex.test(originalString)) {
-       console.log("originalString", originalString)
-      // originalString.replace(/\([^)]*\)/g, '').trim();
-       
+      originalString.replace(/\([^)]*\)/g, '').trim();
      }
   })
 }
