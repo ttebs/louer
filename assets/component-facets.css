@@ -1216,6 +1216,15 @@ input.mobile-facets__checkbox {
     align-items: center;
     justify-content: center;
   }
+  .facets-vertical .product-grid-container .collection {
+    width: 100%;
+  }
+  .grid__item .product-card-wrapper .card {
+    width: 100%;
+  }
+  .grid__item .product-card-wrapper .card {
+    width: 90%;
+  }
 }
 #Details-1-template--19096365859119__product-grid {
   border-top: none;
