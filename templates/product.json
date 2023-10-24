@@ -194,6 +194,9 @@
         "column-0",
         "column-1"
       ],
+      "custom_css": [
+        ".multicolumn--style-0 .slider-mobile-gutter {padding-top: 0; padding-bottom: 0; }"
+      ],
       "settings": {
         "customClass": "multicolumn--style-0",
         "title": "",
