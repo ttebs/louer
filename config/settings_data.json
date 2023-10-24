@@ -184,7 +184,7 @@
           "footer-0"
         ],
         "custom_css": [
-          ".footer {border: none; margin-top: 0;}"
+          ".footer {margin-top: 0;}"
         ],
         "settings": {
           "color_scheme": "background-1",
