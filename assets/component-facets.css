@@ -1220,3 +1220,8 @@ input.mobile-facets__checkbox {
 #Details-1-template--19096365859119__product-grid {
   border-top: none;
 }
+.facets__heading--vertical, .facets__summary span {
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 0;
+}
