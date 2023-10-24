@@ -1201,4 +1201,11 @@ window.onload = function(event) {
     })
   }
 
+  const filterItems = document.querySelectorAll('.facet-checkbox > [aria-hidden="true"]')
+  const originalString = "membership (11)";
+  const modifiedString = originalString.replace(/\([^)]*\)/g, '').trim();
+   filterItems.forEach((item) => {
+    const originalString = item.innerText;
+    originalString.replace(/\([^)]*\)/g, '').trim();
+  })
 }
