@@ -1217,6 +1217,6 @@ input.mobile-facets__checkbox {
     justify-content: center;
   }
 }
-#FacetsWrapperDesktop > details:first-child {
+#FacetsWrapperDesktop > details {
   border-top: none;
 }
