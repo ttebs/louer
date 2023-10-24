@@ -103,7 +103,8 @@
     "e2758dbe-e78d-4360-9310-a308cb4f2f17": {
       "type": "custom-liquid",
       "custom_css": [
-
+        ".id-scan {justify-content: center; gap: 0;}",
+        ".id-scan img {align-self: center;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"id-scan page-width\">\n<div class=\"id-scan__form\">\n<img style=\"width: 150px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0692\/9766\/8399\/files\/IDScan.net-Logo-190x87_1_1.png?v=1698171889\" \/>\n<p style=\"margin: 0;\">This verification process is designed to confirm your identify and protect you from identity theft. Please fill up the form to start.\n<\/p>\n<input name=\"first-name\" placeholder=\"Enter first name\" \/>\n<input name=\"last-name\" placeholder=\"Enter last name\" \/>\n\n<input name=\"phone\" placeholder=\"Enter phone\" \/>\n<button type=\"button\">Submit<\/button>\n<p class=\"id-scan__form--error\" style=\"color: red\">* The phone number you entered is not valid.<\/p>\n<\/div>\n<\/div>",
