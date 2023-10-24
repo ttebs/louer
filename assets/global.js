@@ -1207,7 +1207,6 @@ window.onload = function(event) {
    filterItems.forEach((item) => {
     const originalString = item.textContent;
      console.log("originalString", originalString)
-     
-    // originalString.replace(/\([^)]*\)/g, '').trim();
+    originalString.replace(/\([^)]*\)/g, '').trim();
   })
 }
