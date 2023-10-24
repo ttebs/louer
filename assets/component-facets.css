@@ -1225,6 +1225,9 @@ input.mobile-facets__checkbox {
   .grid__item .product-card-wrapper .card {
     width: 90%;
   }
+  .facets-vertical.page-width {
+    padding: 0 10px;
+  }
 }
 #Details-1-template--19096365859119__product-grid {
   border-top: none;
