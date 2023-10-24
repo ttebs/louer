@@ -30,7 +30,7 @@
         "template--17556832715055__442761bc-cb9d-4cbf-a7f7-41aafb1cd3df-167355007992800c96-1"
       ],
       "custom_css": [
-
+        "h1 {margin-top: 15px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
