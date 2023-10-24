@@ -195,7 +195,7 @@
         "column-1"
       ],
       "custom_css": [
-        ".multicolumn--style-0 .slider-mobile-gutter {padding-top: 0; padding-bottom: 0; }"
+        ".multicolumn--style-0 .slider-mobile-gutter {padding-top: 0; padding-bottom: 0;}"
       ],
       "settings": {
         "customClass": "multicolumn--style-0",
@@ -211,7 +211,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 0
       }
     },
