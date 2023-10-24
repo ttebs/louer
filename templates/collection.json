@@ -14,7 +14,7 @@
         "show-more-button .label-text,.facets__header-vertical {font-size: 12px; text-transform: uppercase;}",
         ".swym-button.swym-add-to-wishlist-view-product {position: absolute; right: 23px; z-index: 2; width: 15px;}",
         ".grid__item {position: relative;}",
-        ".swym-button.swym-add-to-wishlist-view-product.swym-heart:after, .facets-vertical .active-facets-vertical-filter {display: none;}",
+        ".swym-button.swym-add-to-wishlist-view-product.swym-heart:after,.facets-vertical .active-facets-vertical-filter {display: none;}",
         ".quick-add {position: absolute; top: -19px; right: -27px;}",
         ".quick-add__submit {width: 58px; min-width: 0; top: 2px; color: #a8a8a8;}",
         ".sold-out-message {font-size: 12px;}"
