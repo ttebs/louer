@@ -1202,15 +1202,12 @@ window.onload = function(event) {
   }
 
   const filterItems = document.querySelectorAll('.facet-checkbox > [aria-hidden="true"]')
-  const originalString = "membership (11)";
-  const modifiedString = originalString.replace(/\([^)]*\)/g, '').trim();
    filterItems.forEach((item) => {
     const regex = /\(.*\)/;
     const originalString = item.textContent;
      if(regex.test(originalString)) {
-       console.log("originalString", originalString)
-      originalString.replace(/\([^)]*\)/g, '').trim();
-       
+       const modifiedString = originalString.replace(/\([^)]*\)/g, '').trim();
+       item.innerText = modifiedString
      }
   })
 }
