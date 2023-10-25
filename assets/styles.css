@@ -243,5 +243,21 @@ input.field__input {
     left: 0;
     margin: 0 auto;
   }
+  .image-with-text {
+    padding: 20px !important;
+  }
+  .image-with-text .grid {
+    flex-direction: column-reverse;
+  }
+  .image-with-text .grid__item {
+    margin-bottom: 60px;
+  }
+  div.custom__banner--with-text .subtitle {
+    margin: 25px 0;
+  }
+  p.custom__banner--with-text .subtitle {
+    margin: 0;
+  }
+  
 }
 
