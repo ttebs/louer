@@ -239,5 +239,9 @@ input.field__input {
   .custom__banner--theme-1 .image-with-text__content {
     margin-top: 40px !important;
   }
+  .image-with-text .image-with-text__media.global-media-settings {
+    left: 0;
+    margin: 0 auto;
+  }
 }
 
