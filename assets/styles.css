@@ -260,6 +260,7 @@ input.field__input {
   }
   .image-with-text__content .image-with-text__text+.button {
     margin-top: 20px !important;
+    
   }
 }
 
