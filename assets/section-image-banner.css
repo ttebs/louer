@@ -23,7 +23,7 @@
 
   .banner__heading {
     font-size: 22px !important;
-    margin: 0;
+    margin: 0 !important;
   }
 
   .banner__custom--subtitles .subtitle {
