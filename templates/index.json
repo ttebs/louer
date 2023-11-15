@@ -59,7 +59,7 @@
         "image_overlay_opacity": 70,
         "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-right",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-2",
@@ -293,8 +293,6 @@
         "49b2b844-c1d0-4ac4-a702-634fce10ae45": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 12,
-            "feed_width": 100,
             "html_area": ""
           }
         }
