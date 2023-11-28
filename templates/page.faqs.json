@@ -37,8 +37,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 20
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "805400fc-190c-47a8-b729-8fc4ac0a312a": {
