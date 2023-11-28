@@ -162,6 +162,9 @@
     },
     "70cc1620-147f-438d-903e-33e177b80ef7": {
       "type": "custom-image-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "customClass": "banner__custom--page-width",
         "image": "shopify:\/\/shop_images\/bringing-some-sparkle-on-a-walk.jpg",
