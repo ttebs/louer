@@ -907,3 +907,17 @@ h2.my-account-details {
   color: #fff;
   background-color: #000;
 }
+
+html .rc-login {
+    box-sizing: border-box;
+    max-width: 436px;
+    width: 100%;
+    min-height: unset;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 60px 16px;
+    font-family: var(--rc-title-font);
+    font-style: normal;
+    color: var(--rc-font-color);
+}
