@@ -262,5 +262,10 @@ input.field__input {
     margin-top: 20px !important;
     
   }
+
+  .id-scan__form button {
+    font-size: 3vmin;
+  }
+  
 }
 
