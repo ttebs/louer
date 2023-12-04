@@ -847,17 +847,19 @@ h2.my-account-details {
 /* login layout update */
 .customer.login {
   display: flex;
-  align-items: flex-start;
+  flex-flow: wrap;
+  align-items: center;
   justify-content: space-between;
-  max-width: 1200px !important;
+  max-width: 1200px!important;
   border-top: 1.5px solid #d7d7d7;
-  margin-top: 45px !important;
+  margin-top: 45px!important;
   gap: 80px;
 }
 .customer.login > div {
-  margin: 0;
+  margin: auto;
   border: none;
-  width: 50%;
+  width: 100%;
+  max-width: 320px;
 }
 .customer.login > div:first-child #rc_login a {
     text-transform: uppercase;
